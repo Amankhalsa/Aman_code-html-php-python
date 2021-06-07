@@ -1,0 +1,225 @@
+path='C:\\Users\\Admin\\Desktop\\Alpha.txt'
+
+file=open(path,'r')
+
+content=file.read()
+
+print(content)
+
+O/P :
+
+Hello World!!
+
+ 
+
+Example :
+
+path='C:\\Users\\Admin\\Desktop\\Alpha.txt'
+
+file=open(path,'r')
+
+for content in file.read():
+
+print(content)
+
+O/P :
+
+H
+
+e
+
+l
+
+l
+
+o
+
+ 
+
+W
+
+o
+
+r
+
+l
+
+d
+
+!
+
+!
+
+ 
+
+Example :
+
+path='C:\\Users\\Admin\\Desktop\\Alpha.txt'
+
+file=open(path,'r')
+
+for content in file.read():
+
+print(content,end='')
+
+O/P :
+
+Hello World!!
+
+ 
+
+Example :
+
+path='C:\\Users\\Admin\\Desktop\\Alpha.txt'
+
+file=open(path,'r')
+
+content=file.read(7)
+
+print(content)
+
+O/P :
+
+Hello W
+
+ 
+
+Example :
+
+path='C:\\Users\\Admin\\Desktop\\Alpha.txt'
+
+file=open(path,'r')
+
+content=file.readline()
+
+print(content)
+
+O/P :
+
+Hello World!!
+
+ 
+
+write()
+
+ 
+
+Example :
+
+file=open('Test.txt','w')
+
+content='Welcome to LearnVern'
+
+file.write(content)
+
+print('data successfully written')
+
+O/P : data successfully written
+
+Test.txt : Welcome to LearnVern
+
+ 
+
+Example :
+
+file=open('Test.txt','w')
+
+content='Welcome to LearnVern'
+
+file.write(content)
+
+print('data successfully written')
+
+O/P : data successfully written
+
+Test.txt : Welcome to LearnVern
+
+ 
+
+file=open('Test.txt','a')
+
+content='this is file'
+
+file.write(content)
+
+print('data successfully written')
+
+O/P : data successfully written
+
+Test.txt : Welcome to LearnVernthis is file
+
+ 
+
+File function
+
+ 
+
+File.close()
+
+Close the file. A closed file cannot be read or written any more.
+
+ 
+
+File.next()
+
+Returns the next line from the file, each time it is being called.
+
+ 
+
+File.read([size])
+
+Reads at most size bytes from the files (less if the read hits EOF before obtaining size bytes).
+
+ 
+
+File.readline([size])
+
+Reads one entire line from the file. A trailing new line character is kept in the string.
+
+ 
+
+File.readlines([sizehint])
+
+Read until EOF using readline() and return a list containing the lines. If the optional sizehint argument is present, instead of reading up to EOF, wholee lines totalling approximately size in bytes (possibly after rounding up to an internal buffer size) are read.
+
+ 
+
+file.seek(offset, [whence])
+
+Sets the file's current position.
+
+- offset : this is the position of the read/write pointer within the file.
+
+- whence : this is optional and defaults to 0 which means absolute file positioning, other values are 1 which means seek relative to the current position and 2 means seek relative to the file's end.
+
+ 
+
+file.tell()
+
+Returns the file's current position.
+
+ 
+
+file.write(str)
+
+Writes a string to the file. There is no return value.
+
+ 
+
+file.writeline(sequence)
+
+Write a sequence of strings to the file. The sequence can be any iterable object producing strings, typically a list of strings.file.write(str)
+
+ 
+
+Rename File
+
+ 
+
+os.rename(src,des)
+
+os.listdir(path)
+
+os.getcwd()
+
+os.remove()
