@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>check box</title>
+	<style type="text/css">
+		.checkbox{
+			position: absolute;
+			top:69px;
+			left: 55px;
+			-webkit-appearance:none;
+			width:80px;
+			height:40px;
+			background-color: #ccc;
+			border-radius: 20px;
+			cursor: pointer;
+			outline: 2px;
+		}
+		/* background of box */
+		.checkbox:checked{
+			background-color: #3498db;
+		}
+		/*radious property*/
+		.checkbox::before{
+			content: "";
+			position: absolute;
+			width: 32px;
+			height: 32px;
+			background-color: #fff;
+			border-radius: 20px;
+			top:4px;
+			left: 4px;
+			transition: .1s linear;
+		}
+
+			.checkbox:checked::before{
+			left:44px;
+		}
+	</style>
+</head>
+<body><h1>
+	<strong>check box:</strong></h1><br>
+<input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+</body>
+</html>

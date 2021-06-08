@@ -1,0 +1,18 @@
+a:link{
+color:red;}
+a:active{
+color:blue;}
+a:hover{
+color:yellow;
+font-size:2em;}
+a:visited{
+color:green;
+}
+div{overflow:auto;
+
+border:1em solid;
+float:left;}
+h5:hover{
+font-size:2em;
+float:right;
+}

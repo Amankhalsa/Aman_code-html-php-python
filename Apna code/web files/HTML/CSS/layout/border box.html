@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	without box border 
+	</title>
+	<meta charset="utf-8"> 
+    <meta name="description" content="This is a paragraph">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	
+.border_box{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.with_border_box{
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	
+}
+.container{
+display: inline;
+
+
+}
+    	    </style>
+</head>
+<body>
+	<div class="container">
+	<div class="border_box"> wihout border box </div>
+	<div class="with_border_box">border box </div>
+	</div>
+</body>
+</html>

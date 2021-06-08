@@ -1,0 +1,49 @@
+.hello{
+			font-size: 2em;
+			font-weight: bold;
+			font-variant-caps: small-caps;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: black;
+		}
+		.aman{
+			font-size: 2em;
+			font-weight: bold;
+			font-variant-caps: small-caps;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: green;	
+		}
+
+		.psd{
+			font-size: 1.5em;
+			font-weight: bold;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: red;	
+		}
+		table{
+			color: yellow;
+			padding: 10px;
+			border: 0px solid yellow;
+			border-radius: 40px;
+			box-shadow: 5px 5px 5px gray;
+		}
+
+		input:focus{
+				box-shadow: 5px 5px 5px black;
+			border-radius: 10px;
+			background-color: blue;
+			height: 30px;
+			outline: none;
+		}
+.jon{
+	border: 2px solid navy;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 10px;
+	width: 180px;
+height: 30px;
+}

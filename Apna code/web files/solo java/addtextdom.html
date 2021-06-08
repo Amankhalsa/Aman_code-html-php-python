@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+		<body>
+			<ol>
+				<li><strong><big>Adding some text by javascript</big></strong> </li><br>
+					<div id="demo">some content</div>
+						<script type="text/javascript">
+		//calling the function in window.onload to make sure the HTML is loaded
+								window.onload = function() {
+   	//creating a new paragraph
+    					var h2 = document.createElement("h2");
+    			var node = document.createTextNode("Some new text");
+   	//adding the text to the paragraph
+ 	 		h2.appendChild(node);
+  		var div = document.getElementById("demo");
+   	//adding the paragraph to the div
+div.appendChild(h2);};
+</script>
+<li><big><strong>Removing Elements</strong></big></li>
+	
+	<div id="demo2">
+  <p id="p1">P1 This is a paragraph.</p>
+  <p id="p2">P2 This is another paragraph.</p>
+</div>
+	<script type="text/javascript">
+//calling the function in window.onload to make sure the HTML is loaded
+window.onload = function() {
+    var parent = document.getElementById("demo2");
+
+    var child = document.getElementById("p1");
+    parent.removeChild(child);
+};
+</script>
+<li>Replacing Elements To replace an HTML element, the element.replaceChild(newNode, oldNode) method is used.For example:</li>
+	</ol>
+		</body>
+				</html>

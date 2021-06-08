@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            Chaining methods in JQuery 
+        </title>
+<link   rel="stylesheet"  href="aman10.css"/>
+    </head>
+    <body>
+        <header> AMANPREET SINGH KHALSA <h3>Get and Change element content dynamically</h3>   </header>
+         <div class="conta">             
+    
+            <div class="par1"><h2>card no 1</h2>
+                <p>hello every one how are you do youn now here is card number one data</p>
+                
+            </div>
+            <div class="par2"><h2>card no 2</h2>
+                <p> hello every one how are you do youn now here is card number two data</p>
+            </div>
+            <div class="par3" ><h2>card no 3</h2>
+                <p>hello every one how are you do youn now here is card number three data</p>
+            </div>
+            <div class="par4">  <h2>card no 4</h2>
+                <p>hello every one how are you do youn now here is card number four  data</p>
+            </div>
+        </div>
+     <div class='btn'>
+        <button value="get_value" id="geth">Hide data </button>
+        <button value="get_value" id="getv">show data </button>
+        
+         <button value="get_value" class="getv">Get value</button>
+         <button value="Set_value" class="setv">Set value</button>
+     </div>
+      
+        <script src="jquery.js"></script>
+        <script src="exp10.js">   </script>
+        <script>
+           
+           $(document).ready(function(){
+                    var card1=$('.par1')  
+                    var card2= $('.par2')
+                    var card3= $('.par3')
+                    var card4= $('.par4')
+                    
+                    $('.getv').click(function(){
+                        alert(card1.text());
+                    })
+                    $('.setv').click(function(){
+                        card1.text("This card data been changed ");
+                    })
+
+
+            })
+        </script>
+
+    </body>
+ 
+</html> 
+        

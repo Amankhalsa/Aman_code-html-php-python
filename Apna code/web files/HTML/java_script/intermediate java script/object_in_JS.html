@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object is JS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This is a object in js ">
+	<script type="text/javascript">
+		function Area(a, b){
+			this.input1=a;
+			this.input2=b;
+this.getArea=function (){
+	return this.input1*this.input2;
+}
+		}
+input1=parseInt(prompt('Enter value 1'));
+input2=parseInt(prompt('Enter value 2'));
+	result=0;
+var a1= new Area(input1, input2);
+result=a1.getArea();
+console.log("area is : "+result);
+	</script>
+</head>
+<body>
+<a href="#" onclick="click();">click me </a>
+<p id="demo">Paragraph</p>
+<script type="text/javascript">
+document.getElementById("demo").innerHTML=result;
+</script>
+</body>
+</html>

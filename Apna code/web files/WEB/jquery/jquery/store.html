@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            store
+        </title>     
+    </head>
+    <body onload="aman()">
+        <p id="demo">  hello world </p>
+        <script>
+            function aman(){
+                var fname =prompt("Enter first name")
+                var lname = prompt("Enter last name")
+                var city = prompt("Enter city name")
+                var pincode = prompt("Enter pincode")
+if(fname==null){
+    alert("hello "+fname+ " see your detail  PRESS OK ") }
+document.getElementById('demo').innerHTML= "<b> hello "+fname+ " <font color=red> Here is your detail</font></b> " +"<br>" +
+"<B>fist name = </B>" +fname+ "<br>"+
+"<B>Last name = </B>" +lname+ "<br>"+
+"<B>City name = </B>" +city+ "<br>"+
+"<B>Pincode   = </B>" +pincode; }
+  </script>
+    </body>
+</html>

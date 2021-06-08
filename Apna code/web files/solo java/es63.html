@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ES63</title>
+</head>
+<body>
+<OL>
+	<LI><BIG>Computed Property NamesWith ES6, you can now use computed property names. Using the square bracket notation [], we can use an expression for a property name, including concatenating strings. This can be useful in cases where we want to create certain objects based on user data (e.g. id, email, and so on).Here are three examples:<br>Example 1: </BIG></LI>
+
+<script type="text/javascript">
+let prop = 'name';
+let id = '1234';
+let mobile = '08923';
+
+let user = {
+  [prop]: 'Jack',
+  [`user_${id}`]: `${mobile}`
+};
+
+console.log(user.name); // Jack
+console.log(user.user_1234); // 08923
+</script>
+<li><big>Array Destructuring in ES6 <b>
+The following example demonstrates how to unpack the elements of an array into distinct variables: </b></big></li>
+<p id='demo'>demo data </p>
+<script type="text/javascript">
+	let arr = ['1', '2', '3'];
+
+let [one, two, three] = arr;
+console.log(one); // 1
+console.log(two); // 2
+console.log(three); // 3
+document.getElementBy('demo').innerHTML='result'+(one); // 1
+//document.getElementBy('demo').innerHTML='result'; // 2
+//document.getElementBy('demo').innerHTML='result'; // 3
+</script>
+</OL>
+</body>
+</html>

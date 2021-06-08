@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Event in js </title>
+    <meta charset="utf-8"> 
+    <meta name="description" content="Event in JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style type="text/css">
+       p{ color:red;font-weight: bolder;font-size: 20px;}
+   </style>
+    <script type="text/javascript">
+        function over_me(){ alert("i m from function");  }
+        function demo_msg(){ var mse="welcome in java"; document.getElementById('demo').innerHTML=mse;
+        //for div will be hide 
+               /* document.getElementById('nemo').innerHTML=mse;*/ 
+   }
+    </script>
+    </head>
+    <body>
+    <ol>
+    <h1>Event in JS</h1>
+            <li> <a href="#" onclick="alert('welcome to javascript');">Click me</a><br><br></li>
+            <li style="display: inline;"><mark color="yellow" id="demo">Paragrapg</mark><br><br></li>
+            <li><a href="#" onclick="demo_msg();">From function </a><br><br></li>
+            <li><a href="#" onmouseover="alert('welcome to javascript');">On mouse overme</a><br><br></li>
+            <li><a href="#" onmouseover="over_me();">From function </a><br><br></li>
+    </ol>
+    
+    </body>
+        </html>

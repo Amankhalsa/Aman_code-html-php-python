@@ -1,0 +1,41 @@
+
+/* CSS Document */
+        header{
+            background-image: linear-gradient(to right,black,
+				green,navy,black);
+            height: 50px;
+            color: white;
+            font-size: xx-large;
+            text-align: center;
+        }
+        img{
+            width: 200px;
+			cursor: pointer;
+			position:absolute;
+			left: 100px;
+        }
+body{
+	background-color:Wheat;}
+#tar{
+	color: blue;
+font-size: 1em;	
+}
+ul li{
+	display:inline;
+	font-size: 2em;
+	font-weight: bolder;
+	padding: 15px;
+	cursor: pointer;
+	color: white;
+	background-image: linear-gradient(to  bottom  right,yellow,navy,black,green);
+	border: 1px solid;
+	margin: 10px;
+	border-radius: 10px;
+}
+.unord{
+	background-image: linear-gradient(pink );
+		padding: 10px;		
+}
+p{color:blueviolet;
+font-weight: bolder;
+font-size: large;}

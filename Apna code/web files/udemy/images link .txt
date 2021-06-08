@@ -1,0 +1,39 @@
+Image Urls
+
+<img src="https://cdn.pixabay.com/photo/2019/10/13/14/33/panda-4546244_960_720.jpg">
+
+<img src="https://cdn.pixabay.com/photo/2019/10/10/16/40/red-4540013_960_720.jpg">
+
+<img src="https://cdn.pixabay.com/photo/2019/10/09/13/10/halloween-4537430_960_720.jpg">
+
+<img src="https://cdn.pixabay.com/photo/2019/10/12/21/18/tiger-4544923_960_720.jpg">
+
+<img src="https://cdn.pixabay.com/photo/2019/10/11/21/15/succulents-4542731_960_720.jpg">
+
+<img src="https://cdn.pixabay.com/photo/2019/10/13/11/24/ibis-4545853_960_720.jpg">
+
+
+-moz-     /* Firefox and other browsers using Mozilla's browser engine */
+
+-webkit-  /* Safari, Chrome and browsers using the Webkit engine */
+
+-o-       /* Opera */
+
+-ms-      /* Internet Explorer (but not always) */
+
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://flexboxfroggy.com/
+
+
+
+
+https://www.w3schools.com/cssref/css3_browsersupport.asp
+
+
+
+https://caniuse.com/#search=flexbox
+
+

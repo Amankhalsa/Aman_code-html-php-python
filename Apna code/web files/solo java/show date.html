@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Event listner </title>
+	</head>
+	<body>
+		<button id="preet">Click Me</button>
+		<button id="deepsingh">deep ji </button>
+		<script type="text/javascript">
+			//calling the function in window.onload to make sure the HTML is loaded
+window.onload = function() {
+    var x = document.getElementById('preet');
+    x.onclick = function () {
+        document.getElementById('deepsingh').innerHTML = Date();
+    }
+};
+		</script>
+	</body>
+</html>

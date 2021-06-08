@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*
+Template Name: Sportlife08
+Author: <a href="http://netzfeld.de/">Netzfeld</a>
+Author URI: http://netzfeld.de/
+Licence: CC BY-SA 3.0
+Licence URI: https://creativecommons.org/licenses/by-sa/3.0/
+File: Layout 2 CSS
+*/
+
+a, a:link, a:visited{color:#000; padding:0 2px 0 2px}
+a:focus{background-color:#333; color:#fff}
+a:hover{background-color:#666; color:#fff}
+a:active{background-color:#000; color:#fff}
+
+.suchfeld{border:1px solid #000; width:120px}
+.senden{border:0; background-color:#fff}
+.linksabstand{padding-left:8px}
+
+.meta-nav ul li{display:inline}
+.meta-nav a, .meta-nav a:link, .meta-nav a:visited{padding:0 6px 0 6px; color:#000; text-decoration:none}
+#fusszeile a, #fusszeile a:link, #fusszeile a:visited{color:#000; text-decoration:none}
+.meta-nav a:focus, #fusszeile a:focus{background-color:#333; color:#fff}
+.meta-nav a:hover, #fusszeile a:hover{background-color:#666; color:#fff}
+.meta-nav a:active, #fusszeile a:active{background-color:#000; color:#fff}
+
+.claim1{background-color:#fff; text-align:left}
+.claim1 img{width:197px; height:135px}
+.claim2{background-color:#131313; text-align:left}
+.claim2 object, .claim2 img{-moz-user-focus:ignore; width:637px; height:135px}
+.claim3{background-color:#131313; text-align:center}
+.claim3 img{width:115px; height:135px}
+.claim1 a, .claim3 a, .claim1 a:link .claim3 a:link{margin:0; padding:0}
+
+#pfad a, #pfad a:link, #pfad a:visited{color:#fff; padding:0 2px 0 2px; text-decoration:none}
+
+#nav-oben ul li{display:inline}
+#nav-oben a, #nav-oben a:link, #nav-oben a:visited{padding:0.2em 9px 0.2em 9px; text-decoration:none; color:#fff}
+#nav-oben a:focus{background-color:#000}
+#nav-oben a:hover{background:#ab004d url(../../images/design/navi-oben-hover.png) repeat-x scroll bottom center; padding-bottom:0.21em}
+#nav-oben a:active{background-color:#000}
+
+#box-seitennavi1 ul li{padding:0.2em 0.5em 0.2em 0; margin:0 0 0 1.25em; list-style:disc outside}
+#box-seitennavi2 ul li{padding:0; margin:0; list-style:none; display:inline}
+#box-seitennavi1 ul li a, #box-seitennavi1 ul li a:link, #box-seitennavi1 ul li a:visited{padding:0.2em 8px 0.2em 8px; text-decoration:none}
+#box-seitennavi2 ul li a, #box-seitennavi2 ul li a:link, #box-seitennavi2 ul li a:visited{display:block}
+#box-seitennavi1 #leser-der-woche img{width:105px; height:140px; padding:25px 0 6px 54px}
+
+#box-werbung1 img{width:728px; height:90px; display:block; margin:0 auto 0 auto; border:1px solid #999}
+#box-werbung2 img{width:180px; height:150px; display:block; overflow:hidden; margin:0 auto 10px auto; border:1px solid #999}
+#box-werbung3 img{width:468px; height:60px; margin:0 2px 0 2px; display:block; float:left; overflow:hidden; border:1px solid #999}
+
+#box-werbung3 a, #box-werbung2 a, #box-werbung1 a, #box-werbung3 a:link, #box-werbung2 a:link, #box-werbung1 a:link, #box-werbung3 a:visited, #box-werbung2 a:visited, #box-werbung1 a:visited{padding:0; margin:0; text-decoration:none}
+#box-werbung2 p a, #box-werbung2 p a:link, #box-werbung2 p a:visited{padding:0 2px 0 2px; text-decoration:underline}
+
+#box-inhalt img{border:1px solid #d9d9d9}
+
+.bildkombi{width:510px; overflow:hidden}
+.bildkombi img{display:block; float:left}
+.bildkombi a, .bildkombi a:link, .bildkombi a:visited{padding:0; margin:0; text-decoration:none}
+
+.bild-rechts, .bild-links, .bild-legende-rechts, .bild-legende-links{overflow:hidden}
+.bild-links img, .bild-rechts img{display:block; width:268px; height:357px; margin:0 10px 5px 0; float:left}
+.bild-links img{float:right; margin:0 0 5px 10px}
+
+.bildlegende-links, .bildlegende-rechts{width:270px; display:block; float:left; margin:0 10px 5px 0}
+.bildlegende-rechts{float:right; margin:0 0 5px 10px}
+.bildlegende-links img, .bildlegende-rechts img{display:block; width:268px; height:357px; padding-bottom:1px; background-color:#666}
+
+.bildlegende{margin:0 auto 1em auto; width:510px}
+.bildlegende img{width:508px; height:200px; display:block; margin:0 auto 0 auto; padding-bottom:1px; background-color:#666}
+.bildlegende p, .bildlegende-links p, .bildlegende-rechts p{padding:0.1em 6px 0.2em 6px; border:1px solid #f0f0f0}
+.galerie{margin:0.25em auto 1.7em auto; width:510px; overflow:hidden; background:transparent repeat-y scroll center top}
+.galerie-unten{background:transparent repeat-y scroll center bottom}
+.galerie p{padding:0.2em 8px 0.2em 8px; background-color:#d7d7d9}
+
+.galeriebild, .galeriebild-gross{margin:10px 4px 10px 4px; border:2px solid #606060; padding:8px 0 25px 0; width:158px; float:left; background-color:#d0d0d0}
+.galeriebild a, .galeriebild a:link, .galeriebild a:visited{padding:0; margin:0; text-decoration:none; line-height:0}
+.galeriebild img{margin:0 auto 0 auto; width:140px; height:140px; display:block}
+.galeriebild-gross{margin:15px auto 30px auto; width:436px; float:none}
+.galeriebild-gross img{margin:0 auto 0 auto; width:420px; height:315px; display:block}
+.galeriebild-gross a, .galeriebild-gross a:link, .galeriebild-gross a:visited{padding:0; margin:0; text-decoration:none; line-height:0}
+p.blaettern{border-top:2px solid #a70b59; border-bottom:2px solid #a70b59; padding:0.2em 0 0.2em 0; background-color:#eb107b; text-align:center; font-family:Sans-Serif,Arial; font-size:85%; font-weight:bold}
+.blaettern a, .blaettern a:link, .blaettern a:visited{padding:0.35em 6px 0.35em 6px; text-decoration:none; color:#fff}
+.blaettern a:focus{background-color:#000}
+.blaettern a:hover{background-color:#a70b59}
+.blaettern a:active{background-color:#000}
+.liste-kurz{margin:10px 0 10px 0}
+.daten{font-family:Sans-Serif,Arial; font-weight:bold; font-size:85%}
+.daten a, .daten a:link, .daten a:visited{width:250px; padding:0 0.35em 0 0.35em; display:block; text-decoration:none; background-color:#eb107b; color:#fff}
+.daten a:hover{background-color:#a70b59}
+.datengrau{font-family:Sans-Serif,Arial; font-weight:bold; font-size:85%}
+.datengrau a, .datengrau a:link, .datengrau a:visited{width:250px; padding:0 0.35em 0 0.35em; display:block; text-decoration:none; background-color:#d0d0d0; color:#000}
+.datengrau a:hover{background-color:#eb107b; color:#fff}

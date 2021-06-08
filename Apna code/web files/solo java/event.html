@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EVENT </title>
+</head>
+<body>
+<ol>
+<li><big>Handling EventsLet's display an alert popup when the user clicks a specified button:</big>
+	<li>
+<div id='demo'>
+	<label>click here </label>
+	<input type="button" name="button" value="button" onclick="show()">
+</div>
+
+<script type="text/javascript">
+	function show() {
+
+		// body...
+		alert("hi aman")
+	}
+</script>
+<br>	
+<li><big>Event handlers can be assigned to elements.</big></li>
+	<big>for show date time:</big>
+
+	<button id="preet">Click Me</button>
+		<button id="deepsingh">deep ji </button>
+		<script type="text/javascript">
+			//calling the function in window.onload to make sure the HTML is loaded
+window.onload = function() {
+    var x = document.getElementById('preet');
+    x.onclick = function () {
+        document.getElementById('deepsingh').innerHTML = Date();
+    }
+};
+		</script> 
+<li><big>event
+The onchange event is mostly used on textboxes. The event handler gets called when the text inside the textbox changes and focus is lost from the element.
+For example:<br>’s important to understand events, because they are an essential part of dynamic web pages.</big>
+</li>
+enter here then see:<br>
+<input type="text"  id="name"   onchange="change()" >
+
+<script type="text/javascript">
+	function change() {
+    var x = document.getElementById('name');
+    x.value = x.value.toUpperCase();
+
+}
+</script>
+<li><big>Event ListenersLet's create an event handler that removes itself after being executed:</big> </li>
+		  <button id="aman">Start</button>
+<script type="text/javascript">
+	//calling the function in window.onload to make sure the HTML is loaded
+window.onload = function() {
+    var btn = document.getElementById("aman");
+    btn.addEventListener("click", myFunction);
+
+ function myFunction() {
+    	var num= parseInt(prompt("enter"))
+    	
+  	var result=Math.sqrt(num)
+
+   			       alert("result is "+result);
+        btn.removeEventListener("click", myFunction);
+    }
+};
+</script>
+</ol>
+</body>
+</html>

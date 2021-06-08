@@ -1,0 +1,40 @@
+img:not(.test){
+width:200px;
+height:220px;
+opacity:.2;
+padding:10px;
+display:inline-block;
+float:right;
+}
+img:hover:not(.test){opacity:.8; cursor:pointer;}
+.test{width:50%;
+float:left;
+display:inline;}
+
+p:hover{font-size:2em;
+text-align:center;
+color:blue;
+}
+div{
+ border:5px solid;
+ border-radius:5px;
+ border-bottom:10px solid blue;
+ padding:1%;} 
+ul li{
+display:inline;
+border:5px dashed brown; 
+border-radius:1em;
+font-size:2em;
+background-color:pink;
+}
+ul li:hover{
+font-size:2em;
+color:blue; cursor:pointer;
+position:relative;
+border:5px dotted green;
+border-radius:1em;
+background-color:skyblue;}
+.am{
+background-color:skyblue;
+font-size:1.4em;
+}

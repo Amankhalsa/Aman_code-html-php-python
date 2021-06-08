@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>data </title>
+</head>
+<body>
+	<ol>
+		<li>using date finding hours  </li>
+<script type="text/javascript">
+	var d = new Date();
+var hours = d.getHours();
+
+document.write(hours);
+</script>
+<li><b>2nd part</b> 
+Let's create a program that prints the current time to the browser once every second.</li>
+<script type="text/javascript">
+	function printTime() {
+    var d = new Date();
+    var hours = d.getHours();
+    var mins = d.getMinutes();
+    var secs = d.getSeconds();
+    var milsec=d.getMilliseconds();
+    document.body.innerHTML ="<h2>Current time is =" +d+ ' and <br>' +hours+":"
+    +mins+":"+secs+ " get Milli seconds is " +milsec+  '</h2>';
+}
+setInterval(printTime, 1000);
+
+</script>
+</ol>
+</body>
+</html>

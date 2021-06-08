@@ -1,0 +1,158 @@
+/* CSS Document */
+header{
+    background-image: linear-gradient(to right,rgb(228, 6, 191),rgb(0, 128, 43));
+    height: 50px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;  
+    animation:aman 0.5s infinite alternate ;}
+    @keyframes aman {
+        50%{background-image:linear-gradient(to right,yellow,green)}
+        100%{background-image:linear-gradient(to right, blue,yellow)}    }
+        h3{
+            background-image: linear-gradient(to right,skyblue,navy,skyblue);
+            margin-top:6px;
+            box-shadow: 07px 07px 10px gray;
+        }
+        h2{
+            color: navy;
+            font-variant: small-caps;
+        }
+         .par1{
+             border: 3px solid;
+             background-image: radial-gradient(yellow,skyblue);
+             width: 200px;
+             height: 200px;
+             border-radius: 20px;
+             position: absolute;
+             box-shadow: 07px 07px 10px gray;
+             top:100px;
+             font-size: 23px;
+             padding: 15px;
+             left: 50px;   
+             animation: ef1 0.3s infinite alternate;}
+            @keyframes ef1 {
+                0%{
+                        background-image:radial-gradient(yellow,tomato)
+                }
+               
+            } 
+         .par2{
+            border: 3px solid;
+            width: 200px;
+            background-image: radial-gradient(yellow,skyblue);
+            border-radius: 20px;
+             padding: 15px;
+             font-size: 23px;
+             box-shadow: 07px 07px 10px gray;
+            height: 200px;
+            position: absolute;
+            top:100px;
+            left: 350px;
+            animation: ef1 0.3s infinite alternate;}
+            @keyframes ef1 {
+                0%{
+                        background-image:radial-gradient(yellow,tomato)
+                }
+               
+            }        
+        .par3{
+            border: 3px solid;
+            width: 200px;
+            background-image: radial-gradient(yellow,skyblue);
+            border-radius: 20px;
+            height: 200px;
+            font-size: 23px;
+
+            padding: 15px;            box-shadow: 07px 07px 10px gray;
+            position: absolute;
+            top:100px;
+            left: 650px;
+            animation: ef1 0.3s infinite alternate;}
+            @keyframes ef1 {
+                0%{
+                        background-image:radial-gradient(yellow,tomato)
+                }
+               
+            }       
+        .par4{
+            border: 3px solid;
+            box-shadow: 07px 07px 10px gray;
+            background-image: radial-gradient(yellow,skyblue);
+            width: 200px;
+            border-radius: 20px;
+            height: 200px;
+            padding: 15px;
+            font-size: 23px;
+            text-align: justify;
+            position:absolute;
+            top:100px;
+            left: 950;
+            animation: ef1 0.3s infinite alternate;}
+            @keyframes ef1 {
+                0%{
+                        background-image:radial-gradient(yellow,tomato)
+                }
+               
+            } 
+
+         .getv{
+             height: 70px;
+             width: 170px;
+             position: relative;
+             left: 260px;
+             box-shadow: 08px 08px 10px gray;
+             top:300px;
+             border-radius: 20px;
+             margin: 10px;
+             cursor: pointer;
+             background-image: radial-gradient(skyblue, yellow);
+             display: inline;
+             font-size: 1.8em;}
+             
+         .setv{
+            height: 70px;
+            width: 170px;
+            position: relative;
+            left: 260px;
+            box-shadow: 08px 08px 10px gray;
+            top:300px;
+            border-radius: 20px;
+            margin: 10px;
+            cursor: pointer;
+            background-image: radial-gradient(skyblue, yellow);
+            display: inline;
+            font-size: 1.8em;}
+     
+             
+         #getv{
+            height: 70px;
+            width: 170px;
+            position: relative;
+            left: 200px;
+            box-shadow: 08px 08px 10px gray;
+            top:300px;
+            border-radius: 20px;
+            margin: 10px;
+            cursor: pointer;
+            background-image: radial-gradient(yellow,green);
+            display: inline;
+            font-size: 1.8em;}
+                        
+         #geth{
+            height: 70px;
+            width: 170px;
+            position: relative;
+            left: 150px;
+            box-shadow: 08px 08px 10px gray;
+            top:300px;
+            border-radius: 20px;
+            margin: 10px;
+            background-image: radial-gradient(yellow, rgb(199, 15, 46));
+            display: inline;
+            cursor: pointer;
+            font-size: 1.8em;}
+        
+body{
+background-color:#fcf7ef;
+margin: 0em;}

@@ -1,0 +1,56 @@
+
+body{box-sizing: border-box;
+max-width: 0 auto;}
+
+
+    form{   max-width: 0 auto ;
+      box-sizing: border-box;
+
+            }
+
+input:not(.sub_button) {
+outline: none;
+
+       box-shadow: 03px 03px 5px navy;
+}
+input:focus:not(.sub_button){
+      background-color: lightgray;
+      font-weight: bold;
+    outline: 5px solid blue;
+    box-shadow: 03px 03px 5px navy;
+  
+}
+
+.sub_button{
+            height: 40px;
+            width: 100px;
+            box-shadow: 08px 08px 10px gray;
+            top:300px;
+            border-radius: 10px;
+            margin: 10px;
+            background-image:radial-gradient(white,yellow,green);
+            display: inline;
+            cursor: pointer;
+            font-size: 20px;
+            border: 2px solid green;
+            font-weight: bolder;
+            outline: none;
+}
+
+
+
+div{float:left;
+}
+.main{
+	padding: 50px;
+	background-color: ;
+      max-width: 0 auto;
+}
+h3{
+	text-align: center;
+	color: blue;
+	background-color: white;
+	max-width: 0 auto;
+
+}
+

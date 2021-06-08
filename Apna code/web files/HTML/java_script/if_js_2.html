@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>if in JS</title>
+	<meta charset="utf-8">
+	<meta type="viewport" content="width=device-width, initial=scale-1.0">
+	<meta type="discription" content="This is a if">
+	<script type="text/javascript">
+			
+	</script>
+	<style type="text/css">
+		p{
+			color: blue;
+			font-size: 20px;
+			font-weight: bolder;
+
+		}
+	</style>
+</head>
+<body>
+<h1>IF STATEMENT IN JS </h1>
+<script type="text/javascript">
+
+			var day= prompt("Enter day");
+
+			
+			var result;
+			//CONVERT IN LOWER CASE 
+				day=day.toLowerCase();
+			if( day =='monday' || day=='mon')
+			{
+			result="<p> First day of week</p>";
+			}
+			else if(day=='tuesday' ||day=='tue')
+			{
+			result="<p> Second day of week</p>";
+			}
+			else if(day=='wednesday' ||day=='wed') {
+
+				result="<p> Mid  week</p>";
+
+			}
+			else if (day =='thursday' ||day=='thu'){
+
+				result="<p>Preparing for Weekend</p>";
+
+			}
+			else if(day=='friday' ||day=='fri') {
+				result="<p>Its friday !</p>";
+
+
+			}
+			else if (day=='saturday' ||day=='sat'){
+				result="<p>Its saturday & Enjoying Day !</p>";
+
+			}
+			else if (day=='sunday' || day=='sun'){
+				result="<p>Its Resting Day !</p>";
+			}
+			else{
+
+			result="<p> Cannot find that Value!</p>";
+
+			}
+			
+</script>
+</body>
+<script type="text/javascript">
+			document.write(result);
+	
+</script>
+</html>

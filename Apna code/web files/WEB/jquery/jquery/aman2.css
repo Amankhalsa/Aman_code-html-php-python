@@ -1,0 +1,24 @@
+
+/* CSS Document */
+header{
+    background-image: linear-gradient(to right,black,
+        green,navy,black);
+    height: 50px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+img{
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+    left: 30%;
+}
+body{
+background-color:Wheat;}
+#hello{
+  
+    position: absolute;
+    left:420px;
+    top:370px;
+}

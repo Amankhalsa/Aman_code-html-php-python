@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> Passing Objects into JavaScript Functions </title>
+        <script>
+            var person =function(name,age,city){
+                this.name=name; 
+                this.age=age;                                               //function 
+                this.city=city
+            };
+            var aman=new person('aman preet singh ',29,'Mandi gobindgarh');              //variable 
+            var rahul= new person('Rahul kumar ',27,'patiala' );                            //variable 
+            var simran =new person('simrandeep ',26,'keratpur');                                 //variable 
+            function  diffr(person1,person2){                                     //function 
+
+                var dif=Math.abs(person1.age-person2.age);
+ document.write('age difference between ' +person1.name+ " and " +person2.name+ " is " +dif+ " years" ); // property printing 
+            }
+                 diffr(aman,rahul);                                     // calling to function 
+        </script>
+    </head>
+</html>

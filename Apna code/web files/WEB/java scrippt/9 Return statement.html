@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title> Return statement in javascript function</title>
+        <style>
+                p{background-color: aquamarine;
+                width: 490px;
+                font-size: 2em;
+                position: relative;
+                border: 2px solid;
+                padding: 10px;
+                border-radius: 10px;
+                background-origin: padding-box;
+                top:190px;
+                left: 100px;
+                animation:aman 1s infinite alternate}
+                @keyframes aman {
+                    0%{background-color: rgb(245, 94, 48);
+                    font-weight: bolder;
+                    color: white;
+                    text-shadow:5px 5px 4px bla
+                    font-weight: bolder;}
+                    50%{background-color: chartreuse;
+                                }
+                    100%{background-color: yellow;
+                        font-weight: bolder;}
+                }
+        </style>
+        <script>
+		alert("press  OK for start Addition");
+            var a=parseInt(prompt("Enter your first number"));
+            var b=parseInt(prompt("Enter your second number"));
+                function add(n1,n2) {
+                    var total=n1+n2;
+                    return total;
+                }
+                var res=add(6,5);
+                var rel=add(a,b);
+                document.write("<p> Return statement in javascript  </p>");
+                document.write("<p>your addition of "+a+ " and " +b+ " is = "+rel+ "</p>");
+        </script>
+    </head>    <body>
+
+    </body>
+</html>

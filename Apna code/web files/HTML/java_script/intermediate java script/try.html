@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+    
+<html>
+    <head>
+    <title>Try</title>
+    <meta charset="utf-8"> 
+    <meta name="description" content="Try catch">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+       p{ color:red;font-weight: bolder;font-size: 20px;}
+    
+</style>
+  
+    </head>
+    <body>
+        <h1>THIS IS A Try</h1>
+        <p id='demo'>Paragraph</p>
+
+         <script type="text/javascript">
+        try{
+                var input=prompt("enter value");
+                if(input=="") throw("no value mentioned ");
+
+
+                alert("input correct!");
+
+
+        }catch(error){
+            alert(error);
+        }
+        document.getElementById('demo').innerHTML=input;
+
+    </script>
+
+
+
+    </body>
+        </html>

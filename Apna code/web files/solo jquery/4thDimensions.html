@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dimensions</title>
+	<link rel="stylesheet" type="text/css" href="4thDimensions.css">
+</head>
+<body>
+	<div style="width:200px"></div>
+<ol>
+	<li><big>Dimensions</big></li>
+	<ol>
+<li><p><big>
+The width() and height() methods get and set the dimensions without the padding, borders and margins. The innerWidth() and innerHeight() methods also include the padding. The outerWidth() and outerHeight() methods include the padding and borders. Check out this image to understand how they work:</big></p>
+</li>
+
+<div></div>
+
+<li>The following example demonstrates how the methods work:</li>
+<li>HTML: div /div </li>
+<li>CSS: div {  }</li>
+<LI>JS: $(function()</LI> {
+ <LI> var txt = "";	<BR>
+  txt += "width: " + $("div").width() + " ";<BR>
+  txt += "height: " + $("div").height() + "<br/>";
+  txt += "innerWidth: " + $("div").innerWidth() + "  ";<br>
+  txt += "innerHeight: " + $("div").innerHeight() + "<br/>";
+  txt += "outerWidth: " + $("div").outerWidth() + "  ";<br>
+  txt += "outerHeight: " + $("div").outerHeight();<br>
+  $("div").html(txt);
+});</LI>
+    	  <script src="jquery.js"></script>
+          <script type="text/javascript" src="4thDimensions.js"></script>
+</ol>
+</ol>
+</body>
+</html>

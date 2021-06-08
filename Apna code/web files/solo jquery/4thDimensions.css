@@ -1,0 +1,15 @@
+
+div {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid blue;
+    background-color: red;
+    color: white;
+}
+ol li{
+	font-size: 1.5em;
+
+
+}

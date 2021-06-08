@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            Drop down 
+        </title>
+        <style type="text/css">
+    .dd{position: relative;
+                display: inline-block;}
+    .dd-btn{
+        padding: 15px;
+        text-align: center;
+        background-color: rgb(67, 52, 119);
+        border: none;
+        width: 250px;
+        color: #f8f9f9;}
+        
+   
+    .dd-content{
+    display: none;
+    position: absolute;    
+    width: 100%;
+    opacity: 0;
+    box-shadow:5px 5px 5px gray;
+    }
+    
+.dd:hover > .dd-content{
+  display:block;
+  opacity: 1;
+  
+    }
+    .dd-content >a{
+         display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+        background-color: rgb(147, 240, 147);
+    }
+    .dd-content >a:hover{
+        display: block;
+        padding: 15px;
+        color: blanchedalmond;
+        background-color: #903c56;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="dd"> 
+            <button class="dd-btn">
+                Home 
+            </button>
+      
+        <div class="dd-content">
+                <a href="jquer3.html" target="_blank" > Aman</a>
+                <a href="#"> preet</a>
+                <a href="#"> Singh</a>
+
+            </div>
+    </div>
+    </body>
+</html>

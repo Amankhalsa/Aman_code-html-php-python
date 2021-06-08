@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page Description">
+    <link rel="icon"  href="logo.png">
+    <title>Inline JavaScript</title>
+    <style type="text/css">
+     
+        p{
+                 margin-left: 10px;
+            border:5px dotted transparent;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+    <script>
+            function checkFormData(){
+                var inputs = document.getElementsByTagName('input');
+                var message="<strong>Form elements \n\n<br></strong>";
+
+                for (var i =0; i <inputs.length; i++) {
+
+
+                    if(inputs[i].getAttribute('type')=='text')
+                    {
+                        message +=inputs[i].getAttribute('name')+" :<b> ";
+                        message +=inputs[i].value+ "</b>\n<br>";
+                    }
+                }
+              /*  alert(message);*/
+              document.getElementById('demo').innerHTML=message;
+            }
+        
+    </script>
+</head>
+
+<body>
+<div style="border:1px solid red; width: 400px; background-color: skyblue">  
+    <table cellpadding="10" cellspacing="10" >
+
+
+<form name="user" id="userfrm" action="#">
+<tr><td>
+
+    Your Name:</td><td> <input type="text" name="name" id="txt_name" /></td></tr>
+
+
+  <tr><td>  Your Email:</td><td> <input type="text" name="email" id="txt_email" /></td></tr>
+   <tr><td> Address:</td><td> <input type="text" name="Address" id="txt_address" /></td></tr>
+
+
+   <tr><td> <input type="button" name="submit" value="Submit"
+           onclick="checkFormData();" /></td></tr>
+
+</form>
+
+<p id="demo"></p>
+</table>
+</div>
+</body>
+
+</html>

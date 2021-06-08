@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Rajan ke Raja </title>
+<style>
+body{
+background-image:url("hari.jpg"),url("18.jpg"),url("18.jpg"),url("18.jpg");
+background-repeat:repeat-x,repeat-y,repeat-x;
+background-position:top left, left center, bottom center;
+position:absolute;}
+
+/*class*/
+.mrc:not(.prin){
+width:120px;
+height:120px;
+background-color:wheat;
+line-height:90px;
+color:blue;
+padding:50px;
+margin:15%;
+position:relative;
+left:30em;
+text-align:center;
+animation: sampleanimation 1s infinite alternate;}
+
+@keyframes sampleanimation{
+0%{border-radius:0;
+transform:rotate(360deg)
+background-color:yellow;
+border:0.5em solid black;
+box-shadow:10px 10px 10px gray;}
+40%{background-color:blue;
+color:white;
+text-shadow:10px 10px 1px black;
+box-shadow:10px 10px 10px gray;
+transform:rotate(360deg)}
+60%{
+color:gold;
+text-shadow:10px 10px 1px black;
+box-shadow:10px 10px 10px black;
+transform:rotate(360deg)}
+100%{border-radius:50%;
+background-color:black;
+color:white;
+border:1em solid;
+box-shadow:10px 10px 1px gray;}		/*circle codeing*/}
+h3{font-weight:bold;
+color:white;}
+.prin{
+position:fixed;
+top:185px;
+font-size:2em;
+color:white;
+font-weight:bold;
+float:left;
+margin-right:0px;
+margin-left:950px;
+background-color:black;
+border:10px solid blue;
+border-radius:100px 0px 0px 100px;
+animation: aman 3s infinite alternate;
+padding:10px;
+font-weight:bold;}
+@keyframes aman{
+10%{background-color:yellow;
+color:black;
+transform:rotate(-05deg)
+font-weight:bold;
+border:10px solid black;
+transform:rotate(-05deg)}
+50%{background-color:white; /* yellow*/
+margin-left:250px;
+border-radius:0px 100px 100px 0px;
+box-shadow:8px 8px 4px gray;
+color:black;
+font-weight:bold;}
+100%{border:10px solid blue;
+color:white;
+font-weight:bold;
+box-shadow:8px 8px 4px gray;
+transform:rotate(5deg)}
+</style>
+</head>
+<body>
+
+<div class="prin">Here is Animation Effect
+</div>
+<div class="mrc">
+
+<h1>
+Khalsa</h1>
+</div>
+
+<h1 style="color:white;">waheguru ji  ka khalsa waheguru ji ki fateh,  waheguru ji  ka khalsa waheguru ji ki fateh  </h1>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dom</title>
+</head>
+<body>
+	<ol>
+		<li><strong>Selecting Elements</strong> </li>
+<p>hi</p>
+<p>hello</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<script>
+var arr = document.getElementsByTagName("p");
+for (var x = 0; x < arr.length; x++) {
+  arr[2].innerHTML = "Hi aman";
+}
+</script>
+   <!--///////2nd code ////////////-->
+  <li><strong>Working with DOM </strong></li>
+   <div id ="demo" style="background-color:gray; color:red; font-size:1.5em">
+            <p>some text</p>
+            <p>some other text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+
+<script type="text/javascript">
+function setText() {
+    var a = document.getElementById("demo");
+     var arr = a.childNodes;
+     for(var x=0;x<arr.length;x++) {
+       arr[x].innerHTML = "new text ";
+     }
+}
+
+//calling the function with setTimeout to make sure the HTML is loaded
+setTimeout(setText, 500);
+</script>
+<li><strong>Changing Attributes We can change the href attribute of a link</strong>  </li>
+		<a href="http://www.example.com">Some link</a>
+<script type="text/javascript">
+	//calling the function in window.onload to make sure the HTML is loaded
+window.onload = function() {
+    var el = document.getElementsByTagName('a');
+    el[0].href= 'http://www.sololearn.com';
+};
+</script><br>
+<li><b>Changing Style</b> The style of HTML elements can also be changed using JavaScript.</li>
+<div id="aman" style="width:200px">some text</div>
+<script type="text/javascript">
+	//calling the function in window.onload to make sure the HTML is loaded
+window.onload = function() {
+    var x = document.getElementById("aman");
+    x.style.color = 'green';
+    x.style.width = '200px';
+    x.style.fontSize='2em';
+};
+</script>
+</ol>
+</body>
+</html>

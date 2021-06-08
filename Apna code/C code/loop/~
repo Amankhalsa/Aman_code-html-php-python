@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int no=2;
+	do 
+	{
+		printf("\t%d",no);
+		no=no+2;
+		while(no<=100);
+		
+	}
+	getch();
+}

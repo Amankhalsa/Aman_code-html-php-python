@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Image hover
+	</title>
+<style>
+/*
+.dropdown {
+  position: relative;
+  display: inline-block;
+}*/
+
+/*{
+  border:1px solid red;
+}*/
+.dropdown-content {
+  display: none;  
+}
+p{
+  width: 300px;
+  background-color: yellow;
+  cursor: pointer;
+
+}
+.dropdown:hover .dropdown-content{/*.dropdown-content*/
+  display: block;
+  width: 300px;
+  cursor: pointer; }
+ .dropdown{
+  width: 300px;
+  margin-top: 0px;
+  clear: both;
+ }
+/*
+.dropdown-content> p:hover{
+  background-color: #f9f9f9;
+  background:yellow;
+  padding:10px;
+  height:20px;
+  color:red;
+}*/
+</style>
+</head>
+<body>
+<div class="dropdown"> 
+		<p>Hover me for show image </p>
+<div class="dropdown-content">
+<img src="School name.jpg" width="400px" class="dropdown-content" border="5px">
+</div>
+
+</div>
+</body>
+</html>

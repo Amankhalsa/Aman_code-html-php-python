@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sun </title>
+	<style type="text/css">
+		#demo{
+			background-color: yellow;
+			width: 20%;
+			height: 30px ;
+			border:5px solid red;
+			text-align: center;
+padding-left: 10px auto;
+  
+			box-sizing: border-box;
+		}
+		#demo::before{
+			content: "Result:";
+		font-weight: bolder;
+		text-align: left;
+
+		}
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+		
+		function add(){
+			
+			a=parseInt(prompt("enter num 1"));
+			b=parseInt(prompt("enter num 2"));
+			var sum=a+b;
+		document.getElementById('demo').innerHTML=sum;
+		}
+function min(){
+			a=parseInt(prompt("enter num 1"));
+			b=parseInt(prompt("enter num 2"));
+			var sum=a-b;
+		document.getElementById('demo').innerHTML=sum;
+		}
+		function mul(){
+			a=parseInt(prompt("enter num 1"));
+			b=parseInt(prompt("enter num 2"));
+			var sum=a*b;
+		document.getElementById('demo').innerHTML=sum;
+		}
+		function div(){
+			a=parseInt(prompt("enter num 1"));
+			b=parseInt(prompt("enter num 2"));
+			var sum=a/b;
+		document.getElementById('demo').innerHTML=sum;
+		}
+		
+
+
+
+</script>
+<a href="#" onclick="add()"><button>Add fun</button></a>
+<a href="#" onclick="min()"><button>Minus fun</button></a>
+<a href="#" onclick="mul()"><button>Multipy fun</button></a>
+<a href="#" onclick="div()"><button>Divide fun</button></a>
+<p id="demo"></p>
+</body>
+</html>

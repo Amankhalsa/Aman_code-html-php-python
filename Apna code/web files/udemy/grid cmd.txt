@@ -1,0 +1,25 @@
+..........................................................
+..........................................................
+		grid system commands 3
+-----------------------------------------------------------
+-----------------------------------------------------------
+.container{
+	 display:grid;
+	 grid-gap:30px;
+ 	 grid-template-columns: auto 1fr 2fr;
+here we can use  grid-template-columns: repeat(3, 1fr);
+	grid-template-columns:(auto-fill, 300px);
+	grid-template-columns:(auto-fill,minmax(300px, 1fr));
+  	 grid-template-rows: repeat (3,1fr); using 300px for show 
+for colums ==>  justify-items:end; start also used here 
+for rows==>	align-items:end;
+}
+------------------------------------------------------------
+------------------------------------------------------------
+		css gris 4th part 
+------------------------------------------------------------
+------------------------------------------------------------
+grid-column-start: 1;
+grid-column-end:2; 
+
+

@@ -1,0 +1,30 @@
+
+P{color: red;	font-weight: bolder;
+	text-align: left;
+
+}
+		input:focus{ background-color: lightblue;}
+		table{
+			box-sizing:border-box; 
+	
+			position: absolute;
+			text-align: left;
+		
+		}
+		form{
+		width: 300px;
+		position: relative;
+
+		}
+		td{
+			font-size: 1.5em;
+			text-align: left;
+		}
+		.head{
+			font-size: 1.6em;
+			color:green;
+			font-weight:bolder;
+		}
+
+		.empty{background-color:yellow; text-align:center;}
+		

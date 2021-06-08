@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ES62</title>
+</head>
+<body>
+<ol>
+	<li><big>Default Parameters in ES6
+In ES6, we can put the default values right in the signature of the functions.
+For example</big></li>
+	<script type="text/javascript">
+		/*
+function test(a, b = 3, c = 42) {
+  return a + b + c;
+}
+console.log(test(5));
+*/
+
+// Full ES6 equivalent
+const test = (a, b = 3, c = 42) => a + b + c;
+console.log(test(5));
+	</script>
+	<li><big>
+And here's an example of an arrow function with default parameters:</big></li>
+	<script type="text/javascript">
+		const test = (a, b = 3, c = 42) => {
+  return a + b + c;
+}
+console.log(test(5)); //50 
+
+	</script>
+<li><big>The new method definition shorthand does not require the colon (:) or function keyword, as in the grow function of the tree object declaration:<br> tree.grow();
+console.log(tree.height);</big></li>
+<script type="text/javascript">
+	let tree = {
+    height: 10,
+    color: 'green',
+    grow() { 
+        this.height += 2;
+    }
+};
+
+tree.grow();
+console.log(tree.height); // 12
+</script>
+
+<li><big>For example, properties height and health are being initialized with variables named height and health:</big></li>
+<script type="text/javascript">
+	let height = 5;
+let health = 100;
+
+let athlete = {
+    height, // height: height,
+    health // health: health
+};
+
+console.log(athlete.height); // 5
+</script>
+<li><big>When creating an object by using duplicate property names, the last property will overwrite the prior ones of the same name.
+For Example:</big></li>
+<script type="text/javascript">
+	var a = {x: 1, x: 2, x: 3, x: 4};
+console.log(a.x); // 4
+</script>
+</ol>
+
+</body>
+</html>

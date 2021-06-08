@@ -1,0 +1,305 @@
+if php my admin not work 
+$cfg['CheckConfigurationPermissions'] = false;
+
+Ampps installation cmd
+1 sudo apt-get update
+2 sudo apt-get install libfontconfig1 libxrender1
+3 wget http://s4.softaculous.com/a/ampps/files/Ampps-3.8-x86_64.run
+4 sudo chmod 0755 Ampps-3.8-x86_64.run
+5 sudo ./Ampps-3.8-x86_64.run
+6 cd /usr/local/ampps
+7 sudo ./Ampps
+
+!If get error then try
+
+8 cd /usr/local/ampps/apache/lib
+9 sudo mkdir bck
+10 sudo mv ./libapr* ./bck/
+sudo apt-get -y install libaprutil1 libaprutil1-dev libapr1 libapr1-de
+____________________________________________________
+11 sudo apt-get -y install libaprutil1 libaprutil1-dev libapr1 libapr1-dev
+______________________________________________________ 
+
+===> ampps start cmd below 
+
+12 sudo QT_X11_NO_MITSHM=1 /usr/local/ampps/Ampps
+soft@127.0.0.1
+======================================= 
+apt --fix-broken install
+snap change erooe 
+type 
+snap changes
+snap abort <no>
+======================================= 
+
+!Video Tutorial:
+https://youtu.be/Bv8O_P0mEck
+======================================= 
+Use this cmd for run apache 
+cd /usr/local/ampps/apache/lib
+
+sudo mkdir backup
+
+sudo mv ./libapr* ./backup/
+
+sudo apt-get -y install libaprutil1 libaprutil1-dev libapr1 libapr1-dev 
+======================================= 
+
+for open or save any file in computer 
+sudo gedit
+=======================================
+sudo su   ==>very help ro remove using 
+rm (file name)
+=======================================
+
+how to unloc folder 
+ sudo chmod 777 {folder name }
+
+=======================================
+how to install any software in ubuntu 
+sudo dpkg -i anydesk_6.1.0-1_amd64.deb 
+=======================================
+if any 
+sudo apt-get install -f
+=======================================
+
+how to loging root user 
+
+sudo -i 
+password 123
+now hash login 
+==> passwd root
+enter password 
+=======================================
+if you wana login by root on terminal 
+type 
+su root 
+enter password Aman
+=======================================
+IP address check 
+ifconfing 
+if any error 
+type ==> sudo aapt install net-tools
+=======================================
+how to make directory,files 
+ctrl =shift 
+ls to see all file 
+got any dir 
+cd Desktop/
+ls for list 
+ll ==>see permission 
+ ld ==> repo
+ file name will  show  
+ ll -f repo
+cd to back 
+folder create cms
+mkdir dir1
+cd dir1/
+mkdir dir2/
+mkdir 1 4 5  == 3 folder will create 
+
+cd.. one step back 
+
+del  cmd
+rmdir 1
+
+if rm 2 ==>folder will not delelte 
+
+if rm -f 2 ==>folder will not delelte 
+
+else 
+rm -rf 2 ==>mean remove force fully 
+one time all del 
+rmdir * ==> all will del 
+
+
+ 
+
+=======================================
+
+del and folder
+
+=======================================
+file folder permission 
+ 
+ll to check permissions on file 
+
+
+chmod 
+1 r
+2 w
+3 x
+4 full 
+ chmod 777 dir 
+ full permission 
+ =======================================
+sudo  hostname its 
+password 123
+exit  
+ i pconfiguration 
+ ifconfig 
+ if not fount 
+ type sudo apt-get net-tools ==> enter 
+ 
+ 
+ setup we canuse for 
+ 
+ nmtui for edit connection for ip 
+ 
+ ifconfing ens333 one will show 
+
+
+ 
+=======================================
+ Upgrade to Latest LibreOffice in Ubuntu
+ Via PPA
+
+    Using the official LibreOffice PPA, you can install and upgrade to the latest Fresh version. Open a terminal and run the below commands in Ubuntu or Linux Mint. 
+2 Commands are 
+=======================================
+1 sudo add-apt-repository ppa:libreoffice/ppa
+
+=======================================
+2 sudo apt update && sudo apt install libreoffice
+
+=======================================
+tuxpaint installation 
+=======================================
+pkumar@linuxbuzz:~$ apt  search tuxpaint
+
+Run the below “apt install” command to install tuxpaint,
+
+pkumar@linuxbuzz:~$ sudo apt install tuxpaint -y
+=======================================
+latest version 
+=======================================
+pkumar@linuxbuzz:~$ wget http://security.ubuntu.com/ubuntu/pool/universe/t/tuxpaint/tuxpaint_0.9.23-1_amd64.deb
+pkumar@linuxbuzz:~$ wget http://security.ubuntu.com/ubuntu/pool/universe/t/tuxpaint/tuxpaint-plugins-default_0.9.23-1_amd64.deb
+pkumar@linuxbuzz:~$ wget http://security.ubuntu.com/ubuntu/pool/universe/t/tuxpaint/tuxpaint-data_0.9.23-1_all.deb
+=======================================
+Now install the downloaded tuxpaint packages using the dpkg command,
+=======================================
+pkumar@linuxbuzz:~$ sudo dpkg -i tuxpaint_0.9.23-1_amd64.deb tuxpaint-plugins-default_0.9.23-1_amd64.deb tuxpaint-data_0.9.23-1_all.deb
+
+======================================= 
+Note if you get dependencies errors while installing the packages then run below command to resolve dependencies,
+======================================= 
+pkumar@linuxbuzz:~$ sudo apt install -f
+
+Brother DCP T-300Printer driver 
+DCP brother printer 
+ Step1. Download the tool.(linux-brprinter-installer-*.*.*-*.gz)
+
+The tool will be downloaded into the default "Download" directory.
+(The directory location varies depending on your Linux distribution.)
+e.g. /home/(LoginName)/Download
+
+Step2. Open a terminal window.
+
+Step3. Go to the directory you downloaded the file to in the last step. By using the cd command.
+
+e.g. cd Downloads
+
+Step4. Enter this command to extract the downloaded file:
+_____________________________________________________
+Command: gunzip linux-brprinter-installer-*.*.*-*.gz
+____________________________________________________
+____________________________________________________
+e.g. gunzip linux-brprinter-installer-2.1.1-1.gz
+____________________________________________________
+Step5. Get superuser authorization with the "su" command or "sudo su" command.
+
+Step6. Run the tool:
+____________________________________________________
+Command: bash linux-brprinter-installer-*.*.*-* Brother machine name
+____________________________________________________
+e.g. bash linux-brprinter-installer-2.1.1-1 MFC-J880DW
+____________________________________________________
+Step7. The driver installation will start. Follow the installation screen directions.
+ 
+
+When you see the message "Will you specify the DeviceURI ?",
+
+For USB Users: Choose N(No)
+For Network Users: Choose Y(Yes) and DeviceURI number.
+
+The install process may take some time. Please wait until it is complete.
+
+
+sanp abort 
+1 snap changes
+2  snap abort (no)
+
+
+
+how to install wine 
+1st command
+----------------------------------
+sudo dpkg --add-architecture i386 
+--------------------------------
+
+2nd command
+-----------------------------------------------------
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+----------------------------------------------------
+
+3rd command 
+----------------------------------------------------
+sudo apt-key add winehq.key
+----------------------------------------------------
+
+4th 
+----------------------------------------------------
+sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' 
+----------------------------------------------------
+
+5th 
+----------------------------------------------------
+sudo apt install --install-recommends winehq-stable
+----------------------------------------------------
+
+6th 
+----------------------------------------------------
+wine --version
+----------------------------------------------------
+
+7th 
+----------------------------------------------------
+winecfg
+----------------------------------------------------
+Black screen error in ubuntu 2020
+
+open terminal then 
+cd..enter 
+go to ect dir 
+1 cd /etc 
+2 cd gdm3 
+3 ls
+find custom.confing file 
+4 su 
+password 
+5 gedit custom.conf 
+remove # from wayland then save this file 
+6 reboot pc 
+now issue will resolved  
+
+Ubuntu Local Network Share - Failed to mount Windows share: Permission denied
+
+1 sudo smbpasswd -a morbius
+
+I would suggest that you edit your original question and add to it the output of the following command so the folks here can see where the folder is located:
+
+net usershare info --long
+
+
+
+How to install the MPEG-4 AAC decoder and the H.264 decoder?
+
+ sudo apt-get install ubuntu-restricted-extras
+
+link:https://askubuntu.com/questions/214421/how-to-install-the-mpeg-4-aac-decoder-and-the-h-264-decoder
+
+
+online video compress 
+https://www.freeconvert.com/video-compressor/download
+

@@ -1,0 +1,15 @@
+ 
+p {
+    background-color:green;
+    color: white;
+    font-size: 2em;
+    height: 60px;
+}
+ol li {
+	font-size: 1.2em;
+}
+h3{
+	background-color: navy;
+	height:50px;
+	color: white;
+}

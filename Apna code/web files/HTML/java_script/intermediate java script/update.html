@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+    
+<html>
+    <head>
+    <title>DOM in JS </title>
+    <link rel="icon" href="logo.png">
+    <meta charset="utf-8"> 
+    <meta name="description" content="DOM find element">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript">
+      function update(){
+        document.getElementById("demo").innerHTML=document.getElementById("txtname").value;
+      }
+  </script>
+    </head>
+    <body>
+        <h1>Dom element </h1>
+        <font>
+
+    <input type="text" id="txtname"   oninput="update()" />
+
+	<span id="demo"></span>
+       
+        </font>
+        
+
+    </body>
+        </html>

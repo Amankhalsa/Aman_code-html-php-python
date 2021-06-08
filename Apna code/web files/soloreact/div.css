@@ -1,0 +1,16 @@
+div.loader {
+       border:20px solid  skyblue; 
+       border-top: 20px solid rgb(150, 150, 9);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+margin: 100px;
+    background-colo:transparent ;
+    animation:colorchange normal   linear 0.5s infinite ;
+}
+@keyframes colorchange {
+0%{transform: rotate(-180);}
+    100% {
+        transform: rotate(-360deg); 
+     }
+}

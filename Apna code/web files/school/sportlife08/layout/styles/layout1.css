@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+Template Name: Sportlife08
+Author: <a href="http://netzfeld.de/">Netzfeld</a>
+Author URI: http://netzfeld.de/
+Licence: CC BY-SA 3.0
+Licence URI: https://creativecommons.org/licenses/by-sa/3.0/
+File: Layout 1 CSS
+*/
+
+html{background:#4d6b25 url(../../images/design/rasen-links.jpg) repeat-y scroll left top}
+body{background:transparent url(../../images/design/rasen-rechts.jpg) repeat-y scroll right top}
+#box-hintergrund1{background:transparent url(../../images/design/rasen-links.jpg) repeat-y scroll left top; overflow:hidden}
+#box-hintergrund2{background:transparent url(../../images/design/rasen-rechts.jpg) repeat-y scroll right top}
+#kopfzeile{border-bottom:1px dashed #000}
+.innen{padding:0 20px 0 20px}
+.box-themen{width:250px; position:relative; z-index:5; float:left}
+.meta-nav{margin-left:260px; text-align:right}
+#box-schatten1{width:980px; margin:0 auto 0 auto; background:transparent url(../../images/design/schatten-links-transparent.png) repeat-y scroll left top}
+#box-schatten2{background:transparent url(../../images/design/schatten-rechts-transparent.png) repeat-y scroll right top}
+#box-innen1{margin:0 7px 0 7px; background:#fff url(../../images/design/schatten-unten-transparent.png) repeat-x scroll center bottom}
+#box-innen2{padding:0 0 15px 0}
+#box-oben{overflow:hidden}
+.claim1, .claim2, .claim3{width:197px; float:left; height:135px; overflow:hidden}
+.claim2{width:637px; background:#131313 url(../../images/design/sportlife08-claim-without.png) no-repeat left top}
+.claim3{float:none; width:auto; margin-left:834px}
+#nav-oben{border-top:2px solid #ab004d; padding:0.25em 10px 0.25em 10px}
+#pfad{border-top:1px solid #cecece; padding:0.21em 8px 0.2em 8px}
+#box-innen3{background:#fff url(../../images/design/muster-mm-papier.png) repeat scroll center top}
+#box-seitennavi1{width:225px; float:left}
+#box-seitennavi2{}
+#seitennavi-abschluss{height:20px; background:transparent url(../../images/design/navi-abschluss.png) no-repeat scroll left top}
+#leser-der-woche{margin-top:20px; height:233px}
+#box-werbung1{height:100px; overflow:hidden}
+#box-hauptinhalt{margin:0 0 0 225px}
+#box-werbung2{width:182px; float:right; border-top:1px solid #e0e0e0; border-left:1px solid #999; border-bottom:1px solid #666; padding:0.75em 11px 0.75em 11px}
+#box-inhalt{margin-right:205px; padding:0.75em 11px 0.75em 13px}
+#box-werbung3{height:62px; width:952px; margin:15px auto 0 auto}
+#fusszeile{margin-top:30px; border-top:1px dashed #000; border-bottom:1px dashed #000}

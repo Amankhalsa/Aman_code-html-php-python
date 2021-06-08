@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*
+Template Name: Sportlife08
+Author: <a href="http://netzfeld.de/">Netzfeld</a>
+Author URI: http://netzfeld.de/
+Licence: CC BY-SA 3.0
+Licence URI: https://creativecommons.org/licenses/by-sa/3.0/
+File: Text CSS
+*/
+
+body{font:normal normal normal 100%/122% "Trebuchet MS",Georgia,Calibri,Albany,Arial,Helvetica,sans-serif; text-align:justify}
+#kopfzeile{background-color:#fff; font-family:sans-serif,Arial; font-size:80%; padding:2px 0 1px 0}
+.suchfeld{font-family:Consolas,"Courier New",Monospace; font-size:95%}
+#box-oben{background-color:#fff}
+.innen{text-align:center; line-height:1em; font-size:1em}
+#pfad{background:#999 url(../../images/design/pfad-alu2.png) repeat scroll center right; font-weight:bold; font-size:85%}
+#nav-oben{background:#e30066 url(../../images/design/navi-oben.png) repeat-x scroll top left; text-align:center; font-family:sans-serif,Arial; font-weight:bold; font-size:88%; color:#fff}
+#leser-der-woche{background:transparent url(../../images/design/post-it.png) no-repeat scroll center top}
+.name-des-lesers-der-woche{margin:0 27px 0 28px; padding-top:3px; height:41px; padding-left:19px; padding-right:28px; font-family:sans-serif,Arial; line-height:110%; font-size:85%; text-align:center}
+#box-werbung2{background:#e0e0e0 url(../../images/design/alu-gebuerstet6.png) repeat scroll top center; text-align:center; font-size:95%}
+#fusszeile{background-color:#fff; font-family:sans-serif,Arial; font-size:80%; padding:4px 0 4px 0}
+
+.fett{font-weight:bold}
+.kursiv{font-style:italic}
+.miniabstand{margin:0.25em 0 0 0}
+em{}
+strong{}
+
+h1, h2, h3, h4, h5, h6{font-family:Corbel,Calibri,Albany,Arial,sans-serif; font-weight:bold}
+h1{font-size:124%; margin:0 0 0.5em 0}
+h2{font-size:114%; margin:1.1em 0 0.2em 0}
+h3{font-size:104%; margin:0.9em 0 0.2em 0}
+h4{font-size:100%; margin:0.7em 0 0.2em 0; padding:0 2px 0 2px; background-color:#e0e0e0}
+h5{font-size:100%; color:#666; margin:0.5em 0 0.2em 0}
+h6{font-size:94%; color:#666; margin:0.5em 0 0.2em 0}
+hr{margin:1em 0 1em 0; border-top:1px dashed #000; padding:0; color:#fff}
+
+#box-inhalt p{margin:0.35em 0 0.35em 0; font-size:90%}
+.awesa{font-size:93%; font-weight:bold; padding:0.75em 0 0em 0}
+.fett-farbig{font-weight:bold; color:#eb107d}
+.hellgrau{color:#666}
+code{font-family:"Courier New",Monospace; font-size:95%; background-color:#fff47c; padding:0 2px 0 2px}
+.wichtig{padding:0 2px 0 2px; font-size:95%; font-weight:bold; background-color:#fff47c; text-align:center}
+#box-inhalt ul li{padding:0.2em 0 0.2em 0; margin-left:1.4em; list-style:disc outside; font-size:95%}
+#box-inhalt ul li ul li, #box-inhalt ol li ol li, #box-inhalt ol li ll li, #box-inhalt ul li ol li{padding:0.2em 0 0.2em 0; margin-left:0.75em}
+#box-inhalt ol li{padding:0.2em 0 0.2em 0; margin-left:1.7em; list-style:decimal outside; font-size:95%}
+
+:lang(de)>*{quotes:"BB""AB""203A""2039"}
+:lang(de-de)>*{quotes:"201E""201C""201A""2018"}
+:lang(en)>*{quotes:"201C""201D""2018""2019"}
+:lang(de-ch)>*, :lang(fr)>*{quotes:"AB""BB""2039""203A"}
+
+q{color:#eb107d; font-size:95%}
+#box-inhalt blockquote{margin:1em; padding:0.25em 0.75em 0.5em 0.75em; display:block; font-size:90%; background-color:#f0f0f0; border:1px dashed Gray}
+#box-inhalt q:before, #box-inhalt blockquote:before{content:open-quote}
+#box-inhalt q:after, #box-inhalt blockquote:after{content:close-quote}
+
+.meldung-headline{margin:0px 0 0 20px; border:1px dashed #000; border-top:none; border-right:none; padding:0.1em 0.25em 0.25em 0.25em}
+.meldung-headline a, .meldung-headline a:link, .meldung-headline a:visited{text-decoration:none; padding:0em 0.25em 0.1em 0.25em}
+.meldung-headline h3{font:normal normal normal 100%/122% "Trebuchet MS",Georgia,Calibri,Albany,Arial,Helvetica,sans-serif; margin:0; padding:3px 0 2px 0}
+.meldung-inhalt{border:1px dashed #000; border-top:none; border-left:none}
+.meldung-inhalt h1{font-size:138%; padding:0.75em 0 0 0; margin:0}
+.meldung-inhalt h2{margin:0.45em 0 0.55em 0}
+
+.bildlegende{font-family:Sans-serif,Arial; font-size:85%; line-height:130%}
+.bildlegende p, .bildlegende-links p, .bildlegende-rechts p{background-color:#e0e0e0}
+
+#box-inhalt .bildlegende p, #box-inhalt .bildlegende-links p, #box-inhalt .bildlegende-rechts p{margin:0}

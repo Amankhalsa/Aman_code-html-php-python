@@ -1,0 +1,11 @@
+
+	<tr><td class='head'>Name is :</td> <td> pardeep</td></tr>
+		  <tr><td class='head'>Age is :    </td> 	<td>44</td></tr>
+		  <tr><td class='head'>  Email id : </td> 	<td>parpal@gmail.com</td></tr>
+		  <tr><td class='head'>Password :  </td>	<td> 543</td></tr>
+		  <tr><th class='empty' colspan=2> === empty === </th></tr>
+	<tr><td class='head'>Name is :</td> <td> pardeep</td></tr>
+		  <tr><td class='head'>Age is :    </td> 	<td>44</td></tr>
+		  <tr><td class='head'>  Email id : </td> 	<td>parpal@gmail.com</td></tr>
+		  <tr><td class='head'>Password :  </td>	<td> 543</td></tr>
+		  <tr><th class='empty' colspan=2> === empty === </th></tr>

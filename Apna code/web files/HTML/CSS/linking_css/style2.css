@@ -1,0 +1,30 @@
+ h1{ 
+      color:red;
+          
+      }
+      h1:hover{color: darkgreen;
+          content: '!!';
+          font-size: 35px;
+          font-variant: small-caps;
+          
+}
+      ul li {
+        display: inline;
+          font-size: 29px;
+          color: green;
+          font-weight: bolder;
+          padding: 10px;
+          margin: 10px;
+          border-radius: 20px;
+          border: 4px solid #10d2c5;
+      }
+      ul li:hover {
+        display: inline;
+          font-size: 29px;
+          color: white;
+          font-weight: bolder;
+          padding: 10px;
+          background-color: black;
+          border: 4px solid gold;
+          
+      }

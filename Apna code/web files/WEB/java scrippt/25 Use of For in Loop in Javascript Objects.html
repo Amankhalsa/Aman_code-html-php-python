@@ -1,0 +1,45 @@
+<htmL>
+<head>
+	<title>Use of For in Loop in Javascript Objects</title>
+<style>
+	body {
+		background-color: antiquewhite;
+		border-top:10px solid black;				/*  here is color formating coding */
+		border-left:20px solid black;
+		border-right:20px solid black;
+		border-radius: 30px;								/*  here is color formating coding */
+		padding: 20px;}
+	hr{
+		background-color: blue;								/*  here is color formating coding */
+		padding: 3px;
+		width: 300px;												/*  here is color formating coding */
+		position: relative;
+		margin-left: 0px;}												/*  here is color formating coding */
+</style>
+</head>
+<body>
+	<script>
+			var person=function(name,age,city,job){
+				this.name=name;														// java script function coding 
+				this.age=age;
+				this.city=city,
+				this.job=job};
+		var aman =new person('<b>Amanpreet singh</b>',28,'Mandi gobind garh',' coder ');
+		var ranvir =new person('<b>Ranvir singh</b>', 32, 'Doraha',' welder ');				//variable 3 time constructor variable 
+		var mani =new person('<b>Manpreet singh</b>',30,'kaddo', 'T S E');
+		document.write(aman.name)
+		document.write("<hr> <hr>")
+																		/*	document.write(aman.hasOwnProperty('age')) */
+	for(var preet in ranvir){											// for loop for printing result 
+		document.write(preet+ " : "+ranvir[preet]+ "<br>")}
+	document.write("<hr>");												//horozontal tag 
+	for(var pret in aman){
+		document.write(pret+ " : "+aman[pret]+ "<br>") }				// for loop for printing result 
+	document.write("<hr>");													//horozontal tag 
+	for(var dora in mani){
+		document.write( dora+ " : " +mani[dora]+ "<br>")}				// for loop for printing result 
+	document.write("<hr>");														//horozontal tag 
+</script>
+</body>
+</htmL>
+	

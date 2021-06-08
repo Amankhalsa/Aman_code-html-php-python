@@ -1,0 +1,11 @@
+.BL{color:blue;font-size:30px; bold;}
+.RD{color:red; font-size:30px; bold;}
+.GR{color:GREEN;font-size:30px; bold;}	
+.OR{color:ORANGE;font-size:30px; bold;}
+.BR{color:bROWN;font-size:30px; bold;}
+.BK{color:blACK;font-size:30px; bold;}
+.wh{color:white;font-size:30px; text-bold;}
+.SK{color:SKYBLUE;font-size:30px; bold;}
+a.two:link {color: #ff0000}
+a.two:visited {color: #0000ff}
+a.two:hover {font-size: 150%}

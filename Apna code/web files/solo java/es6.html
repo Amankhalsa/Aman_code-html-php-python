@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ES6</title>
+</head>
+<body>
+<ol>
+	<li>Functions in ECMAScript 6
+Prior to ES6, a JavaScript function was defined like this:</li>
+<script type="text/javascript">
+	function add(x, y) {
+    var sum = x+y;  
+    console.log(sum);
+}
+add(35,7);
+</script>
+<button onclick="add(35,7);">click me </button>
+<li>
+ES6 introduces a new syntax for writing functions. The same function from above can be written as: </li>
+<script type="text/javascript">
+	const addi = (x, y) => {
+    let sum = x + y;  
+    console.log(sum);
+}
+add(31, 7);
+</script>
+<button onclick="addi">next is </button>
+<li>This new syntax is quite handy when you just need a simple function with one argument.
+You can skip typing function and return, as well as some parentheses and braces.
+For example:</li>
+<script type="text/javascript">
+	const greet = x => "Welcome " + x;
+alert(greet("David"));
+</script>
+<li>loopvar arr = [2, 3, 7, 8];<br>
+
+arr.forEach(function(el) {<br>
+  console.log(el * 2);<br>
+});</li>
+<script type="text/javascript">
+	var arr = [2, 3, 7, 8];
+
+arr.forEach(function(el) {
+    console.log(el * 2);
+});
+</script>
+<li>
+However, in ES6, the code above can be rewritten as following:<br>const arr = [2, 3, 7, 8];<br>
+
+arr.forEach(v => {<br>
+    console.log(v * 2);
+}); </li>
+<script type="text/javascript">
+	const arr = [2, 3, 7, 8];
+
+arr.forEach(v => {
+    console.log(v * 2);
+});
+</script>
+</ol>
+</body>
+</html>

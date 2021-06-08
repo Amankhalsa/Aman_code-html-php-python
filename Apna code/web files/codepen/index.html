@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>CodePhoneIO</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="codephoneio.css">
+</head>
+<body onload="loader()">
+	<div class="bg-000 col1 fxd fff" id="title">
+		<div class="abs cen">
+			<h2>CodePhoneIO</h2>
+			<hr>
+			<p>
+				Tips :<br>
+				- Click the button lock to open.<br>
+				- Click the button menu to show all apps.<br>
+				- Click the button codepen to show home screen back.<br><br>
+				Update :<br>
+				1. Add an animation to the apps.<br>
+				2. Add a page loader.<br>
+				3. Add an animation to the apps when it hover.</p>
+			<br><br><br><br>
+			<p class="abs bt cen-vr loader">Please Wait
+				<span>.</span>
+				<span>.</span>
+			</p>
+		</div>
+	</div>
+	<div class="fxd cen casing1">
+		<div class="col1 abs cen casing2">
+			<div class="bg-000 abs cen-vr top">
+				<div class="abs cen">
+					<div class="flx ai_cen">
+						<div class="circle phone-camera"></div>
+						<div class="phone-speaker"></div>
+						<div class="circle phone-light"></div>
+					</div>
+				</div>
+			</div>
+			<div class="abs cen fff show-lock" id="lockScreen">
+				<div class="col1 flx_cl_wr ai_cen date">
+					<h1 id="days"></h1>
+					<span id="mdy"></span>
+					<span id="times"></span>
+				</div>
+				<span class="abs myIcon lock" onclick="close_lockScreen()"></span>
+				<span class="abs animation-arrow">
+					<i class="fa fa-hand-o-left"></i>
+				</span>
+			</div>
+			<div class="abs cen screen">
+				<div class="col1 tp abs fz12 info">
+					<div class="rel-rg">
+						<i class="fa fa-user-circle-o"></i>
+						<i class="fa fa-signal"></i>
+						<i class="fa fa-battery-full"></i>
+						<i class="fa fa-clock-o"></i>
+					</div>
+				</div>
+				<div class="col1 abs home" id="homeScreen">
+					<div class="abs cen-vr fz12 google">
+						<input class="bg-trans col1 rel-lf" type="text" placeholder="Google...">
+						<span class="rel-rg search">
+							<i class="fa fa-search"></i>
+						</span>
+					</div>
+					<div class="col1 flx_cl_wr ai_cen date">
+						<h1 id="days_"></h1>
+						<span id="mdy_"></span>
+						<span id="times_"></span>
+					</div>
+				</div>
+				<div class="col1 abnone apps" id="myApps">
+					<div class="flx_rw_wr jc_sparo">
+						<span class="myIcon settings"></span>
+						<span class="myIcon folder"></span>
+						<span class="myIcon image"></span>
+						<span class="myIcon camera"></span>
+						<span class="myIcon music"></span>
+						<span class="myIcon video-player"></span>
+						<span class="myIcon tv"></span>
+						<span class="myIcon radio"></span>
+						<span class="myIcon recorder"></span>
+						<span class="myIcon calculator"></span>
+						<span class="myIcon compass"></span>
+						<span class="myIcon flashlight"></span>
+						<span class="myIcon calendar"></span>
+						<span class="myIcon drive"></span>
+						<span class="myIcon photos"></span>
+						<span class="myIcon duo"></span>
+						<span class="myIcon earth"></span>
+						<span class="myIcon maps"></span>
+						<span class="myIcon gmail"></span>
+						<span class="myIcon translate"></span>
+						<span class="myIcon docs"></span>
+						<span class="myIcon sheets"></span>
+						<span class="myIcon slides"></span>
+						<span class="myIcon chrome"></span>
+						<span class="myIcon gplus"></span>
+						<span class="myIcon facebook"></span>
+						<span class="myIcon messenger"></span>
+						<span class="myIcon twitter"></span>
+						<span class="myIcon instagram"></span>
+						<span class="myIcon whatsapp"></span>
+						<span class="myIcon youtube"></span>
+						<span class="myIcon path"></span>
+						<span class="myIcon skype"></span>
+						<span class="myIcon pinterest"></span>
+						<span class="myIcon vine"></span>
+						<span class="myIcon vimeo"></span>
+						<span class="myIcon sound-cloud"></span>
+						<span class="myIcon spotify"></span>
+						<span class="myIcon snpachat"></span>
+						<span class="myIcon picasa"></span>
+					</div>
+				</div>
+				<div class="col1 bt abs menu-default">
+					<div class="flx_rw_wr jc_sparo">
+						<span class="myIcon call"></span>
+						<span class="myIcon contact"></span>
+						<span class="myIcon message"></span>
+						<span class="myIcon menu" onclick="showApps()"></span>
+					</div>
+				</div>
+			</div>
+			<div class="bg-000 abs cen-vr bottom">
+				<div class="flx jc_cen">
+					<span class="flx ai_cen jc_cen circle" onclick="showHome()">
+						<i class="fa fa-codepen"></i>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="fxd me" href="https://codepen.io/uzcho_" target="blank_">
+		<span class="abs">A Project By Amli</span>
+	</a>
+<script src="codephoneio.js"></script>
+</body>
+</html>

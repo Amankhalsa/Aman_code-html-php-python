@@ -1,0 +1,35 @@
+.blue {
+    z-index: 3;
+    position: relative;
+    background-color: #8EC4D0;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+}
+.red {
+    z-index: 2;
+    position: relative;
+    background-color: #FF4D4D;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.gre{
+    z-index: 4;
+    position: relative;
+    background-color: green;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 70px;
+}
+div {
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: inset 10px 10px 5px #888888, inset -10px -10px 5px #888888;
+}

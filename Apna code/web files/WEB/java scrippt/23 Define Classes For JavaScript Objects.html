@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Define Classes For JavaScript Objects</title>
+	<script>
+				var house =function(length,width){ //house is class
+					this.length=length;				//function define in class 
+						this.width=width;
+						this.area=function(){
+						
+						return this.length*this.width;
+					}
+					this.perimetor=function(){				//2nd function in class 
+						return 2*(this.length+this.width);
+					}
+					this.info=function() {					// 3rd function define in class 
+	return "length ="+this.length+ "<br/> width ="+this.width+ "<br /> Area=" +this.area()+
+		"<br/> primetor ="+this.perimetor();
+							}
+				}
+				var muhouse=new house(30,50);					//variable define 
+				var urhouse=new house(90, 50);
+				var mhouse=new house(86,73);
+				
+		document.write(urhouse.info())				//accesing code ing 
+		document.write("<hr>")
+		document.write(muhouse.info())	
+			document.write("<hr>")
+		document.write(mhouse.info())
+				
+	</script>
+</head>
+
+<body>
+</body>
+</html>

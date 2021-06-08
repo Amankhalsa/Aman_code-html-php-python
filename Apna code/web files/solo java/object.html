@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>object </title>
+<script type="text/javascript">
+var person ={
+		name:"Amanpreet singh",
+		age:28,
+		city:"MGG"
+};
+var x= person.name;
+var y=person.age;
+var z=person.city;
+document.write(('My name is '),person.name,('<br> Age is: '),person.age,('<br> City is: '),person.city);
+document.write('<br><hr>My name is:'+x+'<br> Age is: ',+y+'<br> City is: '+z);
+</script>
+</head>
+<body>
+<h1><mark>here is body section:</mark></h1><hr size="10" color="blue">
+<p id="demo"> demo text</p>
+<script type="text/javascript">
+	document.getElementById('demo').innerHTML= '<b> My name is:</b> ' +x+ '<br><b> Age is: </b>'+y+ '<br><b> City is: </b>'+z;
+</script>
+</body>
+</html>

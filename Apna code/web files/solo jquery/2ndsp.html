@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+         <link rel="stylesheet" type="text/css" href="Started.css">
+    </head>
+    <body>
+    	<div>
+<ol>
+<li><big><b>CSS Properties:</b>
+Similar to the html() method, the css() method can be used to get and set CSS property values.
+For example:
+HTML:</li>
+   <p>Some text</p>
+         
+
+<li><b>Some text</b></li>
+<li><b>CSS:p </b>{
+  background-color:red;
+  color: white;
+}</li>
+
+<li><b>JS: $</b>(function(){
+  alert($("p").css("background-color"));
+  $("p").css("background-color", "blue");
+}); </li> 
+<li>The code above alerts the background-color property of the paragraph and then sets it to blue.</li></big>
+</ol>
+</div>
+<!-- second coding strat here-->
+
+
+
+<h2>OTHER CSS METHOD TO CHANGE the color and font-size properties of the paragraph.</h2>
+<ol><big>
+	<li> <b>Multiple Properties</b><br>
+To set multiple CSS properties, the css() method uses JSON syntax, which is: css({"property":"value","property":"value",...});</li>
+<li>
+As you can see, the syntax consists of "property":"value" pairs, which are comma separated and enclosed in curly brackets { }.<br>
+For Example:<big><b>
+$("p").css({"color": "red", "font-size": "200%"});</b></big></li>
+
+<h3>other text is here </h3>
+
+<li>You can specify any number of properties using this JSON syntax.</li>
+
+    </big>
+</ol>
+<script src="jquery.js"></script>
+         <script type="text/javascript" src="2ndcp.js"></script>
+</body>
+</html>

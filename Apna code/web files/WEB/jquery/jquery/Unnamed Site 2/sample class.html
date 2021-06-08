@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Define Classes For JavaScript Objects</title>
+	<script>
+                var house=function(length, width){ //class defination 
+                    this.length=length;
+                        this.width=width;
+                            this.area=function()            //funtion for area finding 
+                             {
+                                  return this.length*this.width;      //function code for execution 
+                                        }
+
+                    this.perimetor=function(){                                     //2nd function for perimetor 
+                        return 2*(this.width+this.length);
+                    }
+                    this.info=function(){                                                  //all in oee funtion for all class 
+
+                        return "Length = " +this.length+ "<br /> Width = "+this.width+ "<br /> Area = " +this.area()+ "<br /> Perimeter = "+this.perimetor();
+                    }
+                }
+                    var myhouse=new house(80,40);       //variables 
+                    var urhome=new house(90,50);                 //variables 
+                    document.write(myhouse.area())             //output 
+                        document.write("<hr><hr>")
+                                document.write(myhouse.perimetor())         //output 
+                                    document.write("<hr><hr>")
+                                        document.write(urhome.area())                  //output 
+                                    document.write("<hr><hr>")
+                               document.write(urhome.perimetor())              //output 
+                            document.write("<hr><hr>")
+                          document.write(myhouse.info());     //sigle fumction ,ultiple accesss 
+                        document.write("<hr><hr>")
+                    document.write(urhome.info());             //sigle fumction ,ultiple accesss 
+	</script>
+</head>
+<body>
+</body>
+</html>

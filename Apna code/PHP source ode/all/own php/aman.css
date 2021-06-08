@@ -1,0 +1,78 @@
+.hello{
+			font-size: 1.5em;
+			font-weight: bold;
+			font-variant-caps: small-caps;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: navy;
+		}
+		.aman{
+			font-size: 1.5em;
+			font-weight: bold;
+			font-variant-caps: small-caps;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: green;	
+		}
+
+		.psd{
+			font-size: 1.5em;
+			font-weight: bold;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: red;	
+		}
+		table{
+			color: yellow;
+			padding: 10px;
+			border: 10px solid yellow;
+			border-radius: 40px;
+		}
+		form{
+			ba
+			border: 5px solid blue;
+			width: 200px;
+			height: 350px;
+			padding: 20px;
+			border-radius: 20px;
+			position: relative;
+			box-shadow: 5px 5px 5px gray;
+			left:500px;
+			top: 50%;
+
+		}
+		input{
+				box-shadow: 5px 5px 5px black;
+			border-radius: 10px;
+			height: 30px;
+		}
+.jon{
+	border: 2px solid navy;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 10px;
+	width: 180px;
+height: 30px;
+}<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin>
+        </script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> 
+    </head>
+    <body>
+        
+        <div id="container"></div>
+        
+        <script type="text/babel">
+        ReactDOM.render(
+          <h1>Hello, React!</h1>,
+          document.getElementById('container')
+        )
+        </script>
+    </body>
+</html>

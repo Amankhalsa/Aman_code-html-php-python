@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://localhost/expection/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Calc</title>
+	<link rel="icon" type="" href="http://localhost/expection/favicon.png">
+<link rel="stylesheet" type="text/css" href="./Calc_files/post_input.css">
+<style type="text/css"></style>
+</head>
+<body style="zoom: 1;">
+<div class="btn_main">
+ 	
+  <button id="toggle">Divide   </button>
+        <button id="Subtract"> Subtract  </button>
+    <button id="Multiply"> Multiply </button>
+        <button id="Addition"> Addition  </button>
+    </div>
+<form action="http://localhost/expection/" method="POST">
+	<div class="main">
+<!--<fieldset>	
+ <legend>All in one</legend>-->
+ 
+<!--==============================================================================-->
+<div class="part1">
+<h3>Devide:</h3>
+	
+	A:<input type="text" name="a"><br><br>
+	B:<input type="text" name="b"><br><br>
+	Submit:<input class="sub_button" type="submit" name="submit1" value="submit"><br>
+<br><b>Answer is : 60828<br></b></div>	
+<!--==============================================================================-->
+<div class="part2">	
+<h3>Subtract:</h3>
+	
+	A:<input type="text" name="c"><br><br>
+	B:<input type="text" name="d"><br><br>
+	Submit:<input class="sub_button" type="submit" name="submit2" value="submit"><br><br>
+</div>
+<!--==============================================================================-->
+<div class="part3">
+	<h3>Multiply:</h3>
+	
+	A:<input type="text" name="e"><br><br>
+	B:<input type="text" name="f"><br><br>
+	Submit:<input class="sub_button" type="submit" name="submit3" value="submit"><br><br>
+</div>
+<!--==============================================================================-->
+	<div class="part4">
+<h3>Addition:</h3>
+	
+	A:<input type="text" name="g"><br><br>
+	B:<input type="text" name="h"><br><br>
+	Submit:<input class="sub_button" type="submit" name="submit4" value="submit"><br>
+	<?=
+	'thanks ';?>
+</div>
+<!--
+  </fieldset>-->
+
+</div>
+ 
+</form>
+<script src="./Calc_files/jquery.js.download"></script>
+
+<script type="text/javascript">
+	
+$(document).ready(function(){
+
+$('#toggle').click(function(){	
+	$('.part1').toggle('fast');
+})
+
+$('#Subtract').click(function(){	
+	$('.part2').fadeToggle('fast');
+})
+$('#Multiply').click(function(){
+	$('.part3').fadeToggle('fast');
+})
+$('#Addition').click(function(){
+	$('.part4').fadeToggle('fast');
+})
+	
+});
+</script>
+
+
+</body></html>

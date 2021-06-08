@@ -1,0 +1,5 @@
+insert cmd
+INSERT INTO `db_oops`.`tbl_oop_test` (`id`, `Name`, `company`, `income`) VALUES ('1', 'Aman', 'Apple', '25000');
+
+UPDATE tbl_oop_test SET id = 8 WHERE `Name`='Simar'
+

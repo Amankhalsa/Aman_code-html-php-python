@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            sample
+        </title>
+
+    </head>
+    <body>
+        <script>
+            var person=function(name,age,city){
+                    this.name=name;
+                    this.age=age;
+                    this.city=city
+            }
+            var aman=new person ("<b>Amanpreet singh", 29,'Mandi gobindgarh </b>')
+            var rahul=new person ('<b>Rahul kumar ',26,"patiala </b>")
+            var simar=new person('<b> Simran deep ',27,' keratpur </b>')
+            function agediff(person1,person2){
+                var diff= Math.abs(person1.age-person2.age);
+                document.write(person1.name+ " age is = " +person1.age+   " year(s) " +person1.city+ "<BR><BR>" 
+                +person2.name+ " age is = " +person2.age+ " year(s) " +person2.city+  "<br><br>" );
+                    document.write( "differemce of age is = "+diff+ " year(s)")
+                    
+            }
+            agediff(simar,aman); 
+            document.write("<hr>")
+            document.write(aman.name, aman.age,aman.city)
+        </script>
+
+    </body>
+</html>

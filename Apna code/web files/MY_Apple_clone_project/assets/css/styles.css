@@ -1,0 +1,154 @@
+.navbar-dark .navbar-nav .nav-link .apple-logo {
+  color: rgb(252,249,249);
+  font-size: 22px;
+  line-height: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.product {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 10px;
+}
+
+.product h1 {
+  font-weight: bold;
+  font-size: 57px;
+}
+
+.product h2 {
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.product.links {
+  font-size: 21px;
+  margin-bottom: 80px;
+}
+
+product-small .links .learn-more {
+  margin-right: 27px;
+}
+
+.product-small .links .learn-more {
+  margin-right: 27px;
+  font-weight: 400;
+}
+
+.product .links .learn-more {
+  margin-right: 27px;
+}
+
+.product.iphone-x {
+  background-color: rgb(250,250,250);
+}
+
+.procuct.iphone-x.img-fluid {
+}
+
+.product.ipad .img-fluid {
+  padding-top: 50px;
+}
+
+.product.iphone-x .img-fluid {
+  padding-top: 50px;
+}
+
+.product.ipad {
+  background-color: rgb(245,245,245);
+}
+
+.product.macbookpro {
+  background-color: rgb(19,18,24);
+}
+
+.product.dark a {
+  color: white;
+}
+
+.product.dark {
+  color: white;
+}
+
+.product-small {
+  height: 550px;
+  padding-top: 40px;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+.product-small h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-small h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.product-small .links {
+  font-weight: 400;
+}
+
+.product-small.behind-the-mac.dark {
+  color: white;
+}
+
+.product-small.behind-the-mac.dark a {
+  color: white;
+}
+
+.product-small.behind-the-mac.dark {
+  padding-top: 420px;
+}
+
+.product-grid {
+  padding-right: 10px;
+}
+
+.product-small.airpad {
+  background-color: rgb(250,250,250);
+}
+
+.product-small.iphone-8 {
+  background-color: rgb(249,240,235);
+}
+
+.product-small.dark {
+  color: white;
+}
+
+.product-small h5 {
+  color: #ce2826;
+  font-size: small;
+  font-weight: bold;
+}
+
+.product-small.watch {
+  background-color: rgb(238,238,238);
+}
+
+.fa.fa-apple.aman {
+  margin-left: 600px;
+  /*text-align: center;*/
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.fa.fa-angle-right.aman {
+  font-size: 50px;
+  margin-left: 10px;
+  color: rgb(87,164,235);
+}
+
+.fa.fa-apple.apple-logo: {
+  background-color: white;
+}
+

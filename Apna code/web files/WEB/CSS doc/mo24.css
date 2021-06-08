@@ -1,0 +1,22 @@
+
+.com{
+border:3px solid black;
+border-radius:50%;
+height:150px;
+color:white;
+width:150px;
+margin:10px;
+position:absolute;}
+.two{background-color:red;z-index:2;right:85px; top:140px; height:15px; width:35px;}
+.three{background-color:white;z-index:3;right:120px; top:80px;height:25px; width:35px;}
+.ten{background-color:black;z-index:10;right:122px; top:78px; height:18px; width:29px;}
+
+.one{background-color:wheat;z-index:1; right:30px; top:40px;}
+
+.four{background-color:white;z-index:4;right:55px; top:80px; height:30px; width:35px;}
+.nine{background-color:black;z-index:9;right:57px; top:82px; height:18px; width:30px;}
+
+.six{background-color:red;z-index:6;left:85px; top:140px; height:15px; width:35px;}
+.seven{background-color:black;z-index:7;left:120px; top:80px;height:25px; width:35px;}
+.five{background-color:wheat;z-index:5; left:30px; top:40px;}
+.eight{background-color:black;z-index:8;left:55px; top:80px; height:25px; width:35px;}

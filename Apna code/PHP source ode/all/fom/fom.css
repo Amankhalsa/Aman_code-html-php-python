@@ -1,0 +1,30 @@
+	*{max-width: 450px;}
+		.aman{
+			font-size: 1.5em;
+			font-weight: bold;
+			font-variant-caps: small-caps;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: green;	
+		}
+
+		.psd{
+			font-size: 1.5em;
+			font-weight: bold;
+			word-spacing: 1px;
+			line-height: 50px;
+			text-align:left;
+			color: red;	
+		}
+		.jon{
+	border: 2px solid navy;
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 10px;
+	max-width: 500px;
+height: 30px;}
+input{
+				box-shadow: 5px 5px 5px black;
+			border-radius: 10px;
+			height: 30px;
+		}

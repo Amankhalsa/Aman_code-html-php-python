@@ -1,0 +1,133 @@
+*{
+	border-style: solid;
+	border-width: 1px;
+	overflow-wrap: all;
+
+	border-color: transparent;
+	/*	border-color: red;*/
+}
+body{
+	width:990px;
+	margin: 0 auto;}
+	article::before{
+		content: "Article";
+		background-color: yellow;
+		box-sizing: border-box;
+		clear: both;
+	}
+	.floow_ryt::before{
+		content: "Relative";
+		background-color: green;
+		color: white;
+
+	}
+	.floow_ryt{
+		padding: 10px;
+		box-sizing: border-box;
+		margin-top: 0px;
+		background-color: #fda01a;
+		width: 300px;
+		float: right;
+		/*
+		position: relative;
+		    top: -435px;*/
+	
+	}
+	article{
+		padding: 10px;
+		box-sizing: border-box;
+		margin-top: 0px;
+		background-color: pink;
+		width: 300px;
+		float: left;
+		clear: left;
+
+
+	}
+	header::before {
+		content: "Header";	
+		background-color: yellow;
+	}
+	p::before{
+		content: "Paragraph";
+		background-color: yellow;
+
+	}
+	p{
+		margin: 10px;
+	/*	background-image: repeating-linear-gradient(white,rgb(138, 202, 138),white);*/
+	}
+	nav{background-color:red;
+		opacity: 0.85;
+		color: blue;
+		font-size: 20px;
+		margin-top: 0px;
+		font-weight: bolder;
+		position: fixed;
+		top:0px;
+		right: 0px;
+		text-align: center;
+		left: 0px;	}
+	header{
+		margin-top: 6em;
+		background-image: repeating-linear-gradient(white,rgb(128, 252, 138),white);
+		margin-bottom: 6em;
+		font-size: 20px;}
+	footer{  
+	background-color:red;
+		opacity: 0.85;
+		color: blue;
+		font-weight: bolder;
+		font-size: 20px;
+		margin-top: 0px;
+		position: fixed;
+		font-weight: bolder;
+		bottom:0px;
+		text-align: center;
+		right: 0px;
+		left: 0px;}
+ul li {display: inline; 
+		margin:10px;
+		padding: 5px;
+		box-sizing: border-box;
+	    background-color: yellow;
+	    border-radius: 10px;
+		}
+		ul li:hover {display: inline; 
+		margin:10px;
+		padding: 5px;
+		box-sizing: border-box;
+	    background-color: black;
+	    color: white;
+	   cursor:pointer;
+	    border-radius: 10px;
+		}
+		section::before{
+			content: "Section";
+			background-color: yellow;
+		}
+		section{
+			background-color: skyblue;
+			float: right;
+			width: 200px;
+			margin-left:10px;
+			padding: 10px;
+			clear: right;
+			box-sizing: border-box;
+
+
+		}
+
+		aside::before{
+			content: "Aside";
+			background-color: yellow;
+		}
+		aside{
+			background-color: lightgray;
+			float: left;
+			width:200px;
+			padding: 10px;
+			box-sizing: border-box;
+			margin-right:10px;
+
+		}

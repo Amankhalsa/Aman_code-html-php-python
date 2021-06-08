@@ -1,0 +1,16 @@
+
+ul li {
+    display: inline;
+    margin: 20px;
+    font-size: 2em;
+color:blue;
+display:inline;
+width:350px;
+height:50px;
+border:2px solid navy;
+background-color: orange;
+}
+
+.footer{
+    font-size: 3em;
+}

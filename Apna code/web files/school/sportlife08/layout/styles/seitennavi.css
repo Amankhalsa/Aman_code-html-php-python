@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*
+Template Name: Sportlife08
+Author: <a href="http://netzfeld.de/">Netzfeld</a>
+Author URI: http://netzfeld.de/
+Licence: CC BY-SA 3.0
+Licence URI: https://creativecommons.org/licenses/by-sa/3.0/
+File: Side Navi CSS
+*/
+
+#box-innen3 #box-seitennavi1 #box-seitennavi2{background-color:#e0e0e0; border-left:1px solid #b5b5b5; border-right:1px solid #333; text-align:left; font-family:sans-serif,Arial; font-size:83%; line-height:120%; font-weight:bold}
+#box-innen3 #box-seitennavi1 #box-seitennavi2 a, #box-innen3 #box-seitennavi1 #box-seitennavi2 a:link{display:block; padding-top:5px; padding-bottom:5px; text-decoration:none; color:Black}
+#box-seitennavi2 ul li a{background:#e0e0e0 url(../../images/design/navi-button-weiter.png) repeat-y right; padding-right:10px; padding-left:9px; border-top:1px solid White; border-bottom:1px solid #888}
+#box-seitennavi2 ul li a:hover, #box-seitennavi2 ul li a:focus, #box-seitennavi2 ul li a:active{background:#ccc url(../../images/design/navi-button-weiter-hover.png) repeat-y right; border-top:1px solid #b7b7b7; border-bottom:1px solid #666; color:Black; padding-left:10px}
+#box-seitennavi2 ul li.selectedOne{display:block}
+#box-seitennavi2 ul li.selectedOne div a{background:#e0e0e0 url(../../images/design/navi-button-weiterelinks.png) repeat-y right; border-top:1px solid White; border-bottom:1px solid #888; padding-right:21px}
+#box-seitennavi2 ul li.selectedOne div a:hover, #box-seitennavi2 ul li.selectedOne div a:focus, #box-seitennavi2 ul li.selectedOne div a:active{background:#e0e0e0 url(../../images/design/navi-button-weiterelinks-hover.png) repeat-y right; border-top:1px solid #ccc; border-bottom:1px solid #666}
+#box-seitennavi2 ul li.selectedOne div.selectedOne{background:#ab004d url(../../images/design/navi-button-gewaehlt-weitere.png) repeat-y right; border-top:1px solid #780036; border-bottom:1px solid #780036; padding:5px 21px 5px 10px; color:White}
+#box-seitennavi2 ul li.selectedOneNoLinksLeft div.selectedOneNoLinksLeft{background:#ab004d url(../../images/design/navi-button-gewaehlt-stop.png) repeat-y right; border-top:1px solid #780036; border-bottom:1px solid #780036; padding:5px 21px 5px 10px; color:#fff}
+#box-innen3 #box-seitennavi1 #box-seitennavi2 ul li ul li a{padding-right:21px; padding-left:24px; background:#e0e0e0 url(../../images/design/navi-button-stop.png) repeat-y right; font-size:90%}
+#box-innen3 #box-seitennavi1 #box-seitennavi2 ul li ul li a:hover, #box-innen3 #box-seitennavi1 #box-seitennavi2 ul li ul li a:focus, #box-innen3 #box-seitennavi1 #box-seitennavi2 ul li ul li a:active{border-top:1px solid #b7b7b7; border-bottom:1px solid #666; padding-left:25px; background:#e0e0e0 url(../../images/design/navi-button-stop-hover.png) repeat-y right}
+#box-seitennavi2 ul li ul li.selectedOne{padding:5px 21px 5px 24px; border-top:1px solid #780036; border-bottom:1px solid #333; background:#ab004d url(../../images/design/navi-button-gewaehlt-stop.png) repeat-y right; color:White; display:block}

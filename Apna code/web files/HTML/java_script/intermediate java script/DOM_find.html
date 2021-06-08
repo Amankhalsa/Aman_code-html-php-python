@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+    
+<html>
+    <head>
+    <title>DOM in JS </title>
+    <meta charset="utf-8"> 
+    <meta name="description" content="DOM find element">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript">
+      function show(){
+var input=document.getElementById('tetname').value;
+       /* alert(input); */
+       document.getElementById('demo').innerHTML=input;
+
+      }
+  </script>
+    </head>
+    <body>
+        <h1>Dom element </h1>
+        <font>
+            <input type="text" id="tetname" />
+            <input type="button"  value="Show value" onclick="show()" />
+
+
+        </font>
+        <p id="demo"></p>
+    </body>
+        </html>
