@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Inheritance in CSS">
+        <title>Inheritance in CSS</title>
+
+        <!-- CSS Starting -->
+        <style type="text/css">
+
+            /* Anything defined here will be applied to all child elements. */
+            body{
+                color: white;
+                background-color: red;
+            }
+
+            /* Overwrite background-color style from parent. */
+            h1{
+                text-decoration: underline;
+                background-color: black;
+            }
+
+            .blackscreen{
+                background-color: black;
+            }
+            a{
+            	background-color: yellow;	
+            	font-size: larger;
+            }
+        </style>
+        <!-- CSS Ending -->
+
+    </head>
+
+    <body>
+        <h1>Heading!</h1>
+        <!-- Inherit the background-color from body parent element style. -->
+        <p>Paragraph Text</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <hr>
+        <!-- Overwrite the background-color style from parent -->
+        <p class="blackscreen"><a href="#">lorem Ipsum is simply dummy text</a><br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.of the printing and typesetting industry. </p>
+        <hr>
+        <p><a href="#">lorem Ipsum</a></p>
+    </body>
+
+</html>

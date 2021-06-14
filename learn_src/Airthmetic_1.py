@@ -31,6 +31,7 @@ print("Result is :",a)
 print(" - subtraction")
 x=9
 c=10
+
 a=x-c
 print (x, "or" , c)
 print("Result is :",a)

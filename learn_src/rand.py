@@ -9,5 +9,5 @@ import math #2
 m=random.randint(50, 100)
 print(math.pi) 
 print(m)
-fact=math.factorial(7) #3 
+fact=math.factorial(5) #3 
 print(fact)

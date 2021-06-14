@@ -4,13 +4,15 @@
 	<title>switch case </title>
 </head>
 <body>
-	<h1> switch case is here press any value</h1>
-
-	<H1><mark></mark>var day=parseInt(prompt("enter value"));</mark></H1>
-	<BR><BR><BR>
+	<h1>enter 1 for table 2 for </h1>
+<button onclick="call_me()"> call me </button>
+<p id="hello"></p>
+<BR>
 	<script type="text/javascript" rel="javascript">
-var date=new Date();
-		 var day=parseInt(prompt("enter value"));
+		// var day=parseInt(prompt("enter value"));
+		function call_me(){
+		var date=new Date();
+		 var day=parseInt(prompt("enter value for table:"));
 	
 		 switch(day){
 		 		case 1:
@@ -18,22 +20,25 @@ var date=new Date();
 	 i=1;
 	 m=n;
 	 do{
+// document.getElementById("hello").innerHTML="Number "+ m + " x "+i+ " = "+n+ "<br>";
 	 document.write("Number " +m+  " x " +i+ " = "+n+ "<br>");
 	 	n++;
 		i++;
 		
 	 }
 	while(n<=20)
+		
 	 	document.write("<br>loop is stoped " );
 		 			break;
 		 		case 2: 
-		 		document.write("Tuesday & "+date);
+		 		document.write("Today :"+date);
 		 			break;
 		 		default:
-		 		document.write("Other days are not avilable & ");
+		 		document.write("Other days are not avilable ");
 		 		break;
 		 }
 		 
+		 }
 	</script>
 
 </body>

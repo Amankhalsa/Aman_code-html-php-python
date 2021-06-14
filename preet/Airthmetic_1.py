@@ -1,5 +1,7 @@
 '''
 Created on Apr 21, 2021
+
+
 Operators are= 
 Arithmetic operators
 Assignment operators
@@ -17,8 +19,8 @@ Bitwise operators
 *    Multiplication    =x * y    
 /    Division          =x / y    
 %    Modulus           =x % y    
-**    Exponentiation   =x ** y    
-//    Floor division   =x // y
+**   Exponentiation   =x ** y    
+//   Floor division   =x // y
 
  '''
 print(" +  Addition")

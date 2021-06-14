@@ -21,5 +21,5 @@ while no_of_guess<=9:
     no_of_guess = no_of_guess + 1
 
     if(no_of_guess>9):
-        print("Game Over")
+        print("Game Over गेम ओवर हो  गई है ")
         break
