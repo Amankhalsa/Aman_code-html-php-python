@@ -23,8 +23,8 @@ else {echo "not uploaded ";}
 			<tr>
 <td align="center" colspan="2"><input type="submit" name="submit" value="Upload"></td>
 		</tr>
-
-	</table>
+table>
 </form>
+	</
  </body>
  </html>
