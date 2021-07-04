@@ -1,0 +1,76 @@
+	
+		*{
+			margin: 5px;
+			padding: 0px;
+			/*border: 1px solid black;*/
+					
+		}
+		a{
+			text-decoration: none;
+			font-size: 2em;
+			font-weight: bolder;
+
+		}
+		a:hover{
+			color: red;
+		}
+		a:visited{
+			color: green;
+		}
+
+		.textview {
+			width: 260px;
+			box-shadow:5px 5px 5px black;
+			border-radius:10px;
+			margin: 10px;
+			font-size: 25px;
+			padding: 5px;
+		}
+		.aman{
+			font-size: 40px;
+			box-shadow:5px 5px 5px black;
+			width: 50px;
+			height: 50px;
+			border-radius:10px;
+			text-align: center;
+			margin: 10px;
+			cursor: pointer;
+		}
+		.main{
+			display: flex;
+			  /*display: block;*/
+  margin-left: auto;
+  flex-wrap:wrap;
+  margin-right: auto;
+  width: 60%;
+		/*	position: absolute;
+			border-radius:50px;
+			top: 20px;
+			margin-top: auto;
+			margin-left:auto;
+			margin-right:auto;
+			width: 50%;*/
+			/*height: 50%;*/
+
+	/*		margin-top: 50px;
+			margin-left:450px;*/
+		}
+	.bg{
+	
+			background-image:url("https://amansin.weebly.com/uploads/4/6/7/8/46784111/img-20180905-125759.jpg");
+			background-size:cover;
+			border-radius: 20px;
+	
+		
+	}
+	body{
+				background-color:rgb(10,0,10,0.2);
+				 box-sizing: border-box;
+		
+			
+	}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
